@@ -89,7 +89,7 @@ const itemGap = useRem(() => viewportWidth.value < 560 ? .45 : .65)
 
     </Config>
 
-    <main class="catalog-shell" :class="{ 'pony-catalog': category === 'pony' }">
+    <main v-if="category != null" class="catalog-shell" :class="{ 'pony-catalog': category === 'pony' }">
         <header v-if="category === 'pony'" class="catalog-header">
             <div class="catalog-heading">
                 <span class="catalog-kicker">Каталог</span>
@@ -101,7 +101,6 @@ const itemGap = useRem(() => viewportWidth.value < 560 ? .45 : .65)
 
     <!-- @vue-generic {GameObject} -->
     <SearchComponent
-        v-if="category != null"
         :data="objects"
         :get-search-text="getNames"
         :get-exact-search-text="(item) => item.id"
