@@ -4,21 +4,11 @@ import type { Ref } from "vue"
 import type { CategoryName, DecorType, GameObject, Location, PonyType, ShopType, CostumeType, TranslatableString, HouseType } from "../types/gameDataTypes"
 import { getObject, useGroupQuests, translateName, getTaskInfo } from "./gameData"
 import { hasPersonalF2P, getPersonalUseful } from "./personalData"
-import { usePersonalTracker } from '@/stores/personalTracker'
 import type { FilterFunctionType, SortFunctionType } from "@/types/searchTypes"
 
 const groupQuests = useGroupQuests()
 
 let saveManager: ReturnType<typeof useSaveStore>
-let personalTracker: ReturnType<typeof usePersonalTracker>
-
-function getPersonalTracker() {
-  if (!personalTracker) {
-    personalTracker = usePersonalTracker()
-  }
-  return personalTracker
-}
-
 function getSaveManager() {
   if (!saveManager) {
     saveManager = useSaveStore()
@@ -271,14 +261,14 @@ export const FilterFunctions: Partial<Record<'common' | CategoryName, {[keys: st
         f2p: {
           name: 'filter.pony.f2p',
           check(gameObject: PonyType) {
-            return hasPersonalF2P(translateName(gameObject).value)
+            return hasPersonalF2P(gameObject)
           },
           client: true,
         },
         useful: {
           name: 'filter.pony.useful',
           check(gameObject: PonyType) {
-            return Boolean(getPersonalUseful(translateName(gameObject).value))
+            return Boolean(getPersonalUseful(gameObject))
           },
           client: true,
         },
@@ -286,15 +276,6 @@ export const FilterFunctions: Partial<Record<'common' | CategoryName, {[keys: st
           name: 'filter.pony.not_owned',
           check(gameObject: PonyType) {
             return !getSaveManager().hasPony(gameObject.id)
-          },
-          include: ['playable'],
-          client: true,
-        },
-        wanted: {
-          name: 'filter.pony.wanted',
-          check(gameObject: PonyType) {
-            const tracker = getPersonalTracker()
-            return Boolean(tracker.wanted[gameObject.id])
           },
           include: ['playable'],
           client: true,

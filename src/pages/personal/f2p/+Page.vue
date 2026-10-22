@@ -1,7 +1,7 @@
 <script setup lang="tsx">
 import { computed } from 'vue'
 import { Config } from 'vike-vue/Config'
-import { useGameObjects, translateName } from '@/scripts/gameData'
+import { useGameObjects } from '@/scripts/gameData'
 import { getPersonalF2P } from '@/scripts/personalData'
 import PonyCard from '@/components/personal/PonyCard.vue'
 import type { PonyType } from '@/types/gameDataTypes'
@@ -13,7 +13,7 @@ import { SortFunctions } from '@/scripts/categories'
 
 const gameObjects = useGameObjects()
 const ponies = computed(() => Object.values(gameObjects.value?.pony?.objects ?? {}) as PonyType[])
-const f2pPonies = computed(() => ponies.value.filter(pony => Boolean(getPersonalF2P(translateName(pony).value))))
+const f2pPonies = computed(() => ponies.value.filter(pony => Boolean(getPersonalF2P(pony))))
 const cardSize = 12
 const { width: itemWidth } = useGameCardSize(cardSize)
 const itemHeight = useRem(20.5)

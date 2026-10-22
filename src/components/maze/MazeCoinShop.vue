@@ -93,7 +93,7 @@ const product = computed(() => getObject(shop.value?.product, 'consumable'))
 }
 
 .product-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 

@@ -1,7 +1,7 @@
 <script setup lang="tsx">
 import { computed } from 'vue'
 import { Config } from 'vike-vue/Config'
-import { useGameObjects, translateName, getNames } from '@/scripts/gameData'
+import { useGameObjects, getNames } from '@/scripts/gameData'
 import { getPersonalUseful, getPersonalUsefulCategories } from '@/scripts/personalData'
 import PonyCard from '@/components/personal/PonyCard.vue'
 import type { PonyType } from '@/types/gameDataTypes'
@@ -11,7 +11,7 @@ import { useRem } from '@/composables/useRem'
 
 const gameObjects = useGameObjects()
 const ponies = computed(() => Object.values(gameObjects.value?.pony?.objects ?? {}) as PonyType[])
-const usefulPonies = computed(() => ponies.value.filter(pony => Boolean(getPersonalUseful(translateName(pony).value))))
+const usefulPonies = computed(() => ponies.value.filter(pony => Boolean(getPersonalUseful(pony))))
 const cardSize = 12
 const { width: itemWidth } = useGameCardSize(cardSize)
 const itemHeight = useRem(20.5)
@@ -19,7 +19,7 @@ const itemGap = useRem(.5)
 const categories = computed(() => getPersonalUsefulCategories())
 const filters = computed(() => Object.fromEntries(categories.value.map(category => [
     category,
-    { name: category, client: true, check: (pony: PonyType) => Boolean(getPersonalUseful(translateName(pony).value)?.roles.includes(category)) },
+    { name: category, client: true, check: (pony: PonyType) => Boolean(getPersonalUseful(pony)?.roles.includes(category)) },
 ])))
 </script>
 

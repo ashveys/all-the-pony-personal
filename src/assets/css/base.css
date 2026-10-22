@@ -27,7 +27,7 @@
       --content-max-width: 78rem;
       
       --font-family: "Comfortaa", "Celestia Medium Redux", Arial, Helvetica, sans-serif;
-      --font-size: 1rem;
+      --font-size: 0.9rem;
       --small-font-size: 0.8rem;
     
       --mobile-width: 700px;
@@ -126,7 +126,7 @@
     }
     
     .button {
-        font-size: 1.3rem;
+        font-size: 1rem;
     
         color: white;
         text-shadow: var(--text-shadow);
@@ -162,7 +162,7 @@
         /* align-content: center; */
         text-align: center;
     
-        font-size: 1.3rem;
+        font-size: 1rem;
         line-height: 0;
     
         color: white;
@@ -257,7 +257,7 @@
         resize: none;
         /* width: 100%; */
         height: auto;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-family: var(--font-family);
         color: var(--blue);
     
@@ -305,7 +305,7 @@
     .dropdown {
         /* width: 100%; */
         height: auto;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-family: var(--font-family);
         color: var(--blue);
     
@@ -341,7 +341,7 @@
         /* background-color: var(--pink); */
         padding: 0.5rem 1rem;
     
-        font-size: 1.5em;
+        font-size: 1.15em;
     }
     
     .infobox td {

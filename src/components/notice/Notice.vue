@@ -45,7 +45,7 @@ function close() {
 }
 
 .x-button {
-    font-size: 1.6rem;
+    font-size: 1.25rem;
     position: absolute;
     top: 0;
     right: 0;

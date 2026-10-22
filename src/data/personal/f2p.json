@@ -1,1780 +1,1941 @@
 {
-  "source": "check list mlp.xlsx",
+  "source": "MLP_F2P_персонажи.xlsx",
+  "match": "English game name / pony.name.en",
   "ponies": {
-    "флэш сентри": {
-      "name": "Флэш Сентри",
+    "8-bit": {
+      "name": "8-Bit",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (2355)"
       ]
     },
-    "лайтнинг даст": {
-      "name": "Лайтнинг Даст",
+    "a.k. yearling": {
+      "name": "A.K. Yearling",
       "methods": [
-        "Девочки Эквестрии"
+        "Royal Balloon Pop"
       ]
     },
-    "кондуктор": {
-      "name": "Кондуктор",
+    "accord": {
+      "name": "Accord",
       "methods": [
-        "Девочки Эквестрии"
+        "Коллекция"
       ]
     },
-    "профессор эй": {
-      "name": "Профессор Эй",
+    "admiral fairweather": {
+      "name": "Admiral Fairweather",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (3295)"
       ]
     },
-    "бон-бон": {
-      "name": "Бон-Бон",
+    "admiral fairy flight": {
+      "name": "Admiral Fairy Flight",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (2745)"
       ]
     },
-    "твинклшайн": {
-      "name": "Твинклшайн",
+    "alice": {
+      "name": "Alice",
       "methods": [
-        "Девочки Эквестрии",
-        "Королевские Шарики"
+        "Daily Goals (1570)"
       ]
     },
-    "миссис кап кейк": {
-      "name": "Миссис Кап Кейк",
+    "aloe": {
+      "name": "Aloe",
       "methods": [
-        "Девочки Эквестрии"
+        "Equestria Girls"
       ]
     },
-    "чирайли": {
-      "name": "Чирайли",
+    "apple bloom": {
+      "name": "Apple Bloom",
       "methods": [
-        "Девочки Эквестрии"
+        "Equestria Girls"
       ]
     },
-    "алоэ": {
-      "name": "Алоэ",
+    "apple cinnamon": {
+      "name": "Apple Cinnamon",
       "methods": [
-        "Девочки Эквестрии"
+        "Royal Balloon Pop"
       ]
     },
-    "лира хартстрингс": {
-      "name": "Лира Хартстрингс",
+    "apple cobbler": {
+      "name": "Apple Cobbler",
       "methods": [
-        "Девочки Эквестрии"
+        "Equestria Girls"
       ]
     },
-    "пипсквик": {
-      "name": "Пипсквик",
+    "apple fritter": {
+      "name": "Apple Fritter",
       "methods": [
-        "Девочки Эквестрии"
+        "Royal Balloon Pop",
+        "Equestria Girls"
       ]
     },
-    "менуэт": {
-      "name": "Менуэт",
+    "apple rose": {
+      "name": "Apple Rose",
       "methods": [
-        "Девочки Эквестрии"
+        "Коллекция"
       ]
     },
-    "даймонд тиара": {
-      "name": "Даймонд Тиара",
+    "aqua crystal foal": {
+      "name": "Aqua Crystal Foal",
       "methods": [
-        "Девочки Эквестрии"
+        "Magical Balloon Pop"
       ]
     },
-    "зекора": {
-      "name": "Зекора",
+    "astro pony": {
+      "name": "Astro Pony",
       "methods": [
-        "Девочки Эквестрии"
+        "Crystal Mine"
       ]
     },
-    "париш нандермейн": {
-      "name": "Париш Нандермейн",
+    "aunt holiday": {
+      "name": "Aunt Holiday",
       "methods": [
-        "Девочки Эквестрии"
+        "Magic Chest"
       ]
     },
-    "свити бель": {
-      "name": "Свити Бель",
+    "aunt orange": {
+      "name": "Aunt Orange",
       "methods": [
-        "Девочки Эквестрии"
+        "Equestria Girls"
       ]
     },
-    "дядя оранж": {
-      "name": "Дядя Оранж",
+    "avant-garde soirée-goer": {
+      "name": "Avant-Garde Soirée-Goer",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (1960)"
       ]
     },
-    "пони массажистка": {
-      "name": "Пони Массажистка",
+    "azure mermare": {
+      "name": "Azure Mermare",
       "methods": [
-        "Девочки Эквестрии"
+        "Коллекция"
       ]
     },
-    "брейберн": {
-      "name": "Брейберн",
+    "babs seed": {
+      "name": "Babs Seed",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (2120)"
       ]
     },
-    "большой макинтош": {
-      "name": "Большой Макинтош",
+    "bad apple": {
+      "name": "Bad Apple",
       "methods": [
-        "Девочки Эквестрии",
-        "Королевские Шарики"
+        "Daily Goals (940)"
       ]
     },
-    "лотус блоссом": {
-      "name": "Лотус Блоссом",
+    "bassist pony": {
+      "name": "Bassist Pony",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (1175)"
       ]
     },
-    "фезервейт": {
-      "name": "Фезервейт",
+    "beauty brass": {
+      "name": "Beauty Brass",
       "methods": [
-        "Девочки Эквестрии"
+        "Royal Balloon Pop",
+        "Equestria Girls"
       ]
     },
-    "эппл кобблер": {
-      "name": "Эппл Кобблер",
+    "bella breeze": {
+      "name": "Bella Breeze",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (1145)"
       ]
     },
-    "скуталу": {
-      "name": "Скуталу",
+    "bellhop pony": {
+      "name": "Bellhop Pony",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (2745)"
       ]
     },
-    "мистер керрот кейк": {
-      "name": "Мистер Керрот Кейк",
+    "big daddy mccolt": {
+      "name": "Big Daddy McColt",
       "methods": [
-        "Девочки Эквестрии"
+        "Find a Pair"
       ]
     },
-    "траффл": {
-      "name": "Траффл",
+    "big macintosh": {
+      "name": "Big Macintosh",
       "methods": [
-        "Девочки Эквестрии"
+        "Equestria Girls"
       ]
     },
-    "эппл блум": {
-      "name": "Эппл Блум",
+    "big mcintosh": {
+      "name": "Big McIntosh",
       "methods": [
-        "Девочки Эквестрии"
+        "Royal Balloon Pop"
       ]
     },
-    "октавия мелоди": {
-      "name": "Октавия Мелоди",
+    "big-haired bowler": {
+      "name": "Big-Haired Bowler",
       "methods": [
-        "Девочки Эквестрии",
-        "Королевские Шарики"
+        "Коллекция"
       ]
     },
-    "хойти-тойти": {
-      "name": "Хойти-Тойти",
+    "big-mouthed schoolpony": {
+      "name": "Big-Mouthed Schoolpony",
       "methods": [
-        "Девочки Эквестрии"
+        "Group Quest Rewards"
       ]
     },
-    "снипс": {
-      "name": "Снипс",
+    "blade sparxx": {
+      "name": "Blade Sparxx",
       "methods": [
-        "Девочки Эквестрии"
+        "Magic Chest"
       ]
     },
-    "флим": {
-      "name": "Флим",
+    "blasé diamond dog": {
+      "name": "Blasé Diamond Dog",
       "methods": [
-        "Девочки Эквестрии",
-        "Королевские Шарики"
+        "Daily Goals (2125)"
       ]
     },
-    "красавчик": {
-      "name": "Красавчик",
+    "blue crystal foal": {
+      "name": "Blue Crystal Foal",
       "methods": [
-        "Девочки Эквестрии"
+        "Magical Balloon Pop"
       ]
     },
-    "флам": {
-      "name": "Флам",
+    "bone salesdog": {
+      "name": "Bone Salesdog",
       "methods": [
-        "Девочки Эквестрии",
-        "Сундук За Ключи"
+        "Daily Goals (2125)"
       ]
     },
-    "твист": {
-      "name": "Твист",
+    "braeburn": {
+      "name": "Braeburn",
       "methods": [
-        "Девочки Эквестрии",
-        "Королевские Шарики"
+        "Equestria Girls"
       ]
     },
-    "мистер бризи": {
-      "name": "Мистер Бризи",
+    "braid-maned schoolpony": {
+      "name": "Braid-Maned Schoolpony",
       "methods": [
-        "Девочки Эквестрии",
-        "Королевские Шарики"
+        "Коллекция"
       ]
     },
-    "джефф леротски": {
-      "name": "Джефф Леротски",
+    "bright-eyed yak calf": {
+      "name": "Bright-Eyed Yak Calf",
       "methods": [
-        "Девочки Эквестрии"
+        "Коллекция"
       ]
     },
-    "спитфайр": {
-      "name": "Спитфайр",
+    "butternut": {
+      "name": "Butternut",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (1650)"
       ]
     },
-    "мэр грива": {
-      "name": "Мэр Грива",
+    "caballeron's henchpony": {
+      "name": "Caballeron’s Henchpony",
       "methods": [
-        "Девочки Эквестрии"
+        "Fusion Pop"
       ]
     },
-    "принцесса каденс": {
-      "name": "Принцесса Каденс",
+    "caballeron's thug": {
+      "name": "Caballeron’s Thug",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (1175)"
       ]
     },
-    "эппл фриттер": {
-      "name": "Эппл Фриттер",
+    "canter creek mushmouth": {
+      "name": "Canter Creek Mushmouth",
       "methods": [
-        "Девочки Эквестрии",
-        "Королевские Шарики"
+        "Magic Chest"
       ]
     },
-    "найт лайт": {
-      "name": "Найт Лайт",
+    "canter creek townspony": {
+      "name": "Canter Creek Townspony",
       "methods": [
-        "Девочки Эквестрии"
+        "Magic Chest"
       ]
     },
-    "фредерик хорсшупин": {
-      "name": "Фредерик Хорсшупин",
+    "canterlot baker": {
+      "name": "Canterlot Baker",
       "methods": [
-        "Девочки Эквестрии",
-        "Королевские Шарики"
+        "Magic Chest"
       ]
     },
-    "диджей пон-три": {
-      "name": "Диджей Пон-три",
+    "canterlot night guard": {
+      "name": "Canterlot Night Guard",
       "methods": [
-        "Девочки Эквестрии"
+        "Коллекция",
+        "Group Quest Rewards"
       ]
     },
-    "сапфир шорс": {
-      "name": "Сапфир Шорс",
+    "captain celaeno": {
+      "name": "Captain Celaeno",
       "methods": [
-        "Девочки Эквестрии",
-        "Королевские Шарики"
+        "Klugetown Balloon Pop"
       ]
     },
-    "черри джубили": {
-      "name": "Черри Джубили",
+    "caramel": {
+      "name": "Caramel",
       "methods": [
-        "Девочки Эквестрии",
-        "Шарики Дружбы"
+        "Коллекция"
       ]
     },
-    "твайлайт велвет": {
-      "name": "Твайлайт Велвет",
+    "cardsharp pirate": {
+      "name": "Cardsharp Pirate",
       "methods": [
-        "Девочки Эквестрии",
-        "Королевские Шарики"
+        "Klugetown Balloon Pop"
       ]
     },
-    "филси рич": {
-      "name": "Филси Рич",
+    "cattail": {
+      "name": "Cattail",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (820)"
       ]
     },
-    "тетушка оранж": {
-      "name": "Тетушка Оранж",
+    "cauldron bubbles": {
+      "name": "Cauldron Bubbles",
       "methods": [
-        "Девочки Эквестрии"
+        "Коллекция"
       ]
     },
-    "соарин": {
-      "name": "Соарин",
+    "celestia's royal guard": {
+      "name": "Celestia’s Royal Guard",
       "methods": [
-        "Девочки Эквестрии"
+        "Equestria Girls"
       ]
     },
-    "бьюти брасс": {
-      "name": "Бьюти Брасс",
+    "charcoal dragon": {
+      "name": "Charcoal Dragon",
       "methods": [
-        "Девочки Эквестрии",
-        "Королевские Шарики"
+        "Daily Goals (1570)"
       ]
     },
-    "полумесяц": {
-      "name": "Полумесяц",
+    "chatty friendship student": {
+      "name": "Chatty Friendship Student",
       "methods": [
-        "Девочки Эквестрии"
+        "Коллекция"
       ]
     },
-    "форсайтия": {
-      "name": "Форсайтия",
+    "cheerful fan": {
+      "name": "Cheerful Fan",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (980)"
       ]
     },
-    "сансет шиммер": {
-      "name": "Сансет Шиммер",
+    "cheerilee": {
+      "name": "Cheerilee",
       "methods": [
-        "Девочки Эквестрии"
+        "Equestria Girls"
       ]
     },
-    "сильвер спун": {
-      "name": "Сильвер Спун",
+    "cheery zebra": {
+      "name": "Cheery Zebra",
       "methods": [
-        "Девочки Эквестрии"
+        "Royal Balloon Pop"
       ]
     },
-    "королевская стража": {
-      "name": "Королевская стража",
+    "cherry berry": {
+      "name": "Cherry Berry",
       "methods": [
-        "Девочки Эквестрии"
+        "Royal Balloon Pop"
       ]
     },
-    "королевский страж селестии": {
-      "name": "Королевский страж Селестии",
+    "cherry jubilee": {
+      "name": "Cherry Jubilee",
       "methods": [
-        "Девочки Эквестрии"
+        "Friendship Balloon Pop",
+        "Equestria Girls"
       ]
     },
-    "шайнинг армор": {
-      "name": "Шайнинг Армор",
+    "chestnut forest guard": {
+      "name": "Chestnut Forest Guard",
       "methods": [
-        "Девочки Эквестрии"
+        "Magic Chest"
       ]
     },
-    "принц голубаякровь": {
-      "name": "Принц Голубаякровь",
+    "chic soirée-goer": {
+      "name": "Chic Soirée-Goer",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (1800)"
       ]
     },
-    "лавстрак": {
-      "name": "Лавстрак",
+    "chipcutter": {
+      "name": "Chipcutter",
       "methods": [
-        "Девочки Эквестрии"
+        "Klugetown Balloon Pop"
       ]
     },
-    "флитфут": {
-      "name": "Флитфут",
+    "chipper diamond dog": {
+      "name": "Chipper Diamond Dog",
       "methods": [
-        "Девочки Эквестрии"
+        "Daily Goals (2290)"
       ]
     },
-    "продавец шерсти клуджтауна": {
-      "name": "Продавец шерсти Клуджтауна",
+    "chummer": {
+      "name": "Chummer",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "дисциплинированный стажер": {
-      "name": "Дисциплинированный стажёр",
+    "chummy friendship student": {
+      "name": "Chummy Friendship Student",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "корзинщик клуджтауна": {
-      "name": "Корзинщик Клуджтауна",
+    "claude the puppeteer": {
+      "name": "Claude the Puppeteer",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (1570)"
       ]
     },
-    "ленивый фанат": {
-      "name": "Ленивый фанат",
+    "clever schoolpony": {
+      "name": "Clever Schoolpony",
       "methods": [
-        "Персонажи - Цели"
+        "Group Quest Rewards"
       ]
     },
-    "кэттейл": {
-      "name": "Кэттейл",
+    "cockatrice": {
+      "name": "Cockatrice",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "кратус": {
-      "name": "Кратус",
+    "conductor": {
+      "name": "Conductor",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "нимбус дэш": {
-      "name": "Нимбус Дэш",
+    "contractor pony": {
+      "name": "Contractor Pony",
       "methods": [
-        "Персонажи - Цели"
+        "Fusion Pop"
       ]
     },
-    "пони-охранник": {
-      "name": "Пони-охранник",
+    "cool soirée-goer": {
+      "name": "Cool Soirée-Goer",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (1800)"
       ]
     },
-    "мисс хардсвини": {
-      "name": "Мисс Хардсвини",
+    "cratus": {
+      "name": "Cratus",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (820)"
       ]
     },
-    "пони из исторического книжного магазина": {
-      "name": "Пони из исторического книжного магазина",
+    "crescent moon": {
+      "name": "Crescent Moon",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "плохая эппл": {
-      "name": "Плохая Эппл",
+    "crystal chalice trader": {
+      "name": "Crystal Chalice Trader",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция",
+        "Group Quest Rewards"
       ]
     },
-    "жизнерадостный фанат": {
-      "name": "Жизнерадостный фанат",
+    "crystal vendor": {
+      "name": "Crystal Vendor",
       "methods": [
-        "Персонажи - Цели"
+        "Magical Balloon Pop"
       ]
     },
-    "невезучий пони": {
-      "name": "Невезучий пони",
+    "cyclops-clops": {
+      "name": "Cyclops-Clops",
       "methods": [
-        "Персонажи - Цели"
+        "Fusion Pop"
       ]
     },
-    "сильвер шилл": {
-      "name": "Сильвер Шилл",
+    "daisy": {
+      "name": "Daisy",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "белла бриз": {
-      "name": "Белла Бриз",
+    "dapper ptc member": {
+      "name": "Dapper PTC Member",
       "methods": [
-        "Персонажи - Цели"
+        "Royal Balloon Pop"
       ]
     },
-    "барвинковый житель города": {
-      "name": "Барвинковый житель города",
+    "detective pony": {
+      "name": "Detective Pony",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "страж короля бури": {
-      "name": "Страж Короля Бури",
+    "diamond dog dad": {
+      "name": "Diamond Dog Dad",
       "methods": [
-        "Персонажи - Цели"
+        "Magic Chest"
       ]
     },
-    "пони-басист": {
-      "name": "Пони-Басист",
+    "diamond tiara": {
+      "name": "Diamond Tiara",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "громила кабальерона": {
-      "name": "Громила Кабальерона",
+    "disciplined trainee": {
+      "name": "Disciplined Trainee",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (490)"
       ]
     },
-    "жеребец империи": {
-      "name": "Жеребец Империи",
+    "disguised celestia": {
+      "name": "Disguised Celestia",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (2355)"
       ]
     },
-    "лаймстоун пай": {
-      "name": "Лаймстоун Пай",
+    "dj pon-3 (canterlot)": {
+      "name": "DJ Pon-3 (Canterlot)",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "кобылка с розовой гривой": {
-      "name": "Кобылка с розовой гривой",
+    "dj pon-3 (ponyville)": {
+      "name": "DJ Pon-3 (Ponyville)",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "модный хайп-пони": {
-      "name": "Модный хайп-пони",
+    "doctor horse": {
+      "name": "Doctor Horse",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "брат оцеллус": {
-      "name": "Брат Оцеллус",
+    "doran": {
+      "name": "Doran",
       "methods": [
-        "Персонажи - Цели"
+        "Magic Chest"
       ]
     },
-    "миссис палео": {
-      "name": "Миссис Палео",
+    "dr. caballero": {
+      "name": "Dr. Caballero",
       "methods": [
-        "Персонажи - Цели"
+        "Find a Pair"
       ]
     },
-    "пуансеттер": {
-      "name": "Пуансеттер",
+    "dr. hooves": {
+      "name": "Dr. Hooves",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "звездный охотник в летном костюме": {
-      "name": "Звёздный охотник в лётном костюме",
+    "drill bit": {
+      "name": "Drill Bit",
       "methods": [
-        "Персонажи - Цели"
+        "Group Quest Rewards"
       ]
     },
-    "зимняя комета": {
-      "name": "Зимняя Комета",
+    "drinkie pie": {
+      "name": "Drinkie Pie",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "дикий фанат": {
-      "name": "Дикий фанат",
+    "earnest bowler": {
+      "name": "Earnest Bowler",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "алиса": {
-      "name": "Алиса",
+    "earnest klugetowner": {
+      "name": "Earnest Klugetowner",
       "methods": [
-        "Персонажи - Цели"
+        "Klugetown Balloon Pop"
       ]
     },
-    "угольный дракон": {
-      "name": "Угольный дракон",
+    "elite pony": {
+      "name": "Elite Pony",
       "methods": [
-        "Персонажи - Цели"
+        "Royal Balloon Pop"
       ]
     },
-    "клод кукольник": {
-      "name": "Клод Кукольник",
+    "essence salespony": {
+      "name": "Essence Salespony",
       "methods": [
-        "Персонажи - Цели"
+        "Group Quest Rewards"
       ]
     },
-    "пони-уборщик": {
-      "name": "Пони-уборщик",
+    "excitable villager": {
+      "name": "Excitable Villager",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "закаленный старый вондерболт": {
-      "name": "Закалённый старый Вондерболт",
+    "eyeshade pony": {
+      "name": "Eyeshade Pony",
       "methods": [
-        "Персонажи - Цели"
+        "Find a Pair"
       ]
     },
-    "баттернат": {
-      "name": "Баттернат",
+    "fancypants": {
+      "name": "Fancypants",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "пони-мс": {
-      "name": "Пони-МС",
+    "fashion plate": {
+      "name": "Fashion Plate",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "сестра сэндбара": {
-      "name": "Сестра Сэндбара",
+    "fashionable unicorn": {
+      "name": "Fashionable Unicorn",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "стильный фанат": {
-      "name": "Стильный фанат",
+    "featherweight": {
+      "name": "Featherweight",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "шикарный посетитель светского вечера": {
-      "name": "Шикарный посетитель светского вечера",
+    "fiddly twang": {
+      "name": "Fiddly Twang",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "крутой посетитель светского вечера": {
-      "name": "Крутой посетитель светского вечера",
+    "filthy rich": {
+      "name": "Filthy Rich",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "улыбчивый сомнамбулан": {
-      "name": "Улыбчивый сомнамбулан",
+    "fine line": {
+      "name": "Fine Line",
       "methods": [
-        "Персонажи - Цели"
+        "Royal Balloon Pop"
       ]
     },
-    "злая эпплджек": {
-      "name": "Злая Эпплджек",
+    "firelight": {
+      "name": "Firelight",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (2120)"
       ]
     },
-    "пони-скрипач": {
-      "name": "Пони-скрипач",
+    "flam": {
+      "name": "Flam",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls",
+        "Star Mastery"
       ]
     },
-    "авантгардный посетитель светского вечера": {
-      "name": "Авантгардный посетитель светского вечера",
+    "flash sentry": {
+      "name": "Flash Sentry",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "лайлак скай": {
-      "name": "Лайлак Скай",
+    "fleetfoot": {
+      "name": "Fleetfoot",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "рэйнбоу дэш из лунной вселенной": {
-      "name": "Рэйнбоу Дэш из Лунной вселенной",
+    "flight suit star hunter": {
+      "name": "Flight Suit Star Hunter",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (1470)"
       ]
     },
-    "пикл баррел": {
-      "name": "Пикл Баррел",
+    "flim": {
+      "name": "Flim",
       "methods": [
-        "Персонажи - Цели"
+        "Royal Balloon Pop",
+        "Equestria Girls"
       ]
     },
-    "рыжегривый житель города из будущего": {
-      "name": "Рыжегривый житель города из будущего",
+    "florina tart": {
+      "name": "Florina Tart",
       "methods": [
-        "Персонажи - Цели"
+        "Friendship Balloon Pop"
       ]
     },
-    "бэбс сид": {
-      "name": "Бэбс Сид",
+    "flurry heart": {
+      "name": "Flurry Heart",
       "methods": [
-        "Персонажи - Цели"
+        "Magical Balloon Pop"
       ]
     },
-    "файрлайт": {
-      "name": "Файрлайт",
+    "forsythia": {
+      "name": "Forsythia",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "скейлз": {
-      "name": "Скейлз",
+    "frederick horseshoepin": {
+      "name": "Frederick Horseshoepin",
       "methods": [
-        "Персонажи - Цели"
+        "Royal Balloon Pop",
+        "Equestria Girls"
       ]
     },
-    "пони, участвующий в гонках на черепахах": {
-      "name": "Пони, участвующий в гонках на черепахах",
+    "friendly future kirin": {
+      "name": "Friendly Future Kirin",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "безразличный алмазный пес": {
-      "name": "Безразличный алмазный пёс",
+    "future twist": {
+      "name": "Future Twist",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "собака-продавец костей": {
-      "name": "Собака-продавец костей",
+    "gaiman": {
+      "name": "Gaiman",
       "methods": [
-        "Персонажи - Цели"
+        "Magic Chest"
       ]
     },
-    "крепкий отдыхающий": {
-      "name": "Крепкий отдыхающий",
+    "game-playin schoolpony": {
+      "name": "Game-Playin Schoolpony",
       "methods": [
-        "Персонажи - Цели"
+        "Group Quest Rewards"
       ]
     },
-    "минотавр-целлус фиолетовый": {
-      "name": "Минотавр-целлус фиолетовый",
+    "gifted schoolpony": {
+      "name": "Gifted Schoolpony",
       "methods": [
-        "Персонажи - Цели"
+        "Klugetown Balloon Pop"
       ]
     },
-    "минотавр-целлус красный": {
-      "name": "Минотавр-целлус красный",
+    "gilda": {
+      "name": "Gilda",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "жизнерадостный алмазный пес": {
-      "name": "Жизнерадостный алмазный пёс",
+    "gingersnap": {
+      "name": "Gingersnap",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (3295)"
       ]
     },
-    "самодовольный алмазный пес": {
-      "name": "Самодовольный алмазный пёс",
+    "glamour gleam": {
+      "name": "Glamour Gleam",
       "methods": [
-        "Персонажи - Цели"
+        "Magical Balloon Pop"
       ]
     },
-    "8-бит": {
-      "name": "8-Бит",
+    "golden harvest": {
+      "name": "Golden Harvest",
       "methods": [
-        "Персонажи - Цели"
+        "Royal Balloon Pop",
+        "Daily Goals (510)"
       ]
     },
-    "замаскированная селестия": {
-      "name": "Замаскированная Селестия",
+    "goth shopper": {
+      "name": "Goth Shopper",
       "methods": [
-        "Персонажи - Цели"
+        "Fusion Pop"
       ]
     },
-    "почтенный флим": {
-      "name": "Почтенный Флим",
+    "grandpa skies": {
+      "name": "Grandpa Skies",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "рэрити из лунной вселенной": {
-      "name": "Рэрити из Лунной вселенной",
+    "grizzled old wonderbolt": {
+      "name": "Grizzled Old Wonderbolt",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (1635)"
       ]
     },
-    "близорукий житель понивилля из будущего": {
-      "name": "Близорукий житель Понивилля из будущего",
+    "guitarist pony": {
+      "name": "Guitarist Pony",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция"
       ]
     },
-    "пиратка эпплджек": {
-      "name": "Пиратка Эпплджек",
+    "hefty resortgoer": {
+      "name": "Hefty Resortgoer",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (2125)"
       ]
     },
-    "скептически настроенный старый вондерболт": {
-      "name": "Скептически настроенный старый Вондерболт",
+    "helia": {
+      "name": "Helia",
       "methods": [
-        "Персонажи - Цели"
+        "Magical Balloon Pop"
       ]
     },
-    "сладж": {
-      "name": "Сладж",
+    "historical bookshop pony": {
+      "name": "Historical Bookshop Pony",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (885)"
       ]
     },
-    "быстрый старый вондерболт": {
-      "name": "Быстрый старый Вондерболт",
+    "hoity toity": {
+      "name": "Hoity Toity",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "профессор фоссил": {
-      "name": "Профессор Фоссил",
+    "honorable flim": {
+      "name": "Honorable Flim",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (2355)"
       ]
     },
-    "мисс кондуктор": {
-      "name": "Мисс Кондуктор",
+    "imperial alchemist pony": {
+      "name": "Imperial Alchemist Pony",
       "methods": [
-        "Персонажи - Цели",
-        "Сундук За Ключи"
+        "Group Quest Rewards"
       ]
     },
-    "совершенное совершенство": {
-      "name": "Совершенное Совершенство",
+    "imperial colt": {
+      "name": "Imperial Colt",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (1175)"
       ]
     },
-    "носфурэрити": {
-      "name": "Носфурэрити",
+    "inky rose": {
+      "name": "Inky Rose",
       "methods": [
-        "Персонажи - Цели"
+        "Fusion Pop"
       ]
     },
-    "адмирал фейри флайт": {
-      "name": "Адмирал Фейри Флайт",
+    "iron will": {
+      "name": "Iron Will",
       "methods": [
-        "Персонажи - Цели"
+        "Fusion Pop"
       ]
     },
-    "пони-портье": {
-      "name": "Пони-портье",
+    "jagged clamp": {
+      "name": "Jagged Clamp",
       "methods": [
-        "Персонажи - Цели"
+        "Magic Chest"
       ]
     },
-    "распорядитель сцены «пони фантастик»": {
-      "name": "Распорядитель сцены «Пони Фантастик»",
+    "janitor pony": {
+      "name": "Janitor Pony",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (1570)"
       ]
     },
-    "неуверенный алмазный пес": {
-      "name": "Неуверенный алмазный пёс",
+    "jeff letrotski": {
+      "name": "Jeff Letrotski",
       "methods": [
-        "Персонажи - Цели"
+        "Equestria Girls"
       ]
     },
-    "стаффи дигнитари": {
-      "name": "Стаффи Дигнитари",
+    "jetstream": {
+      "name": "Jetstream",
       "methods": [
-        "Персонажи - Цели"
+        "Коллекция",
+        "Group Quest Rewards"
       ]
     },
-    "тайт шип": {
-      "name": "Тайт Шип",
+    "joe": {
+      "name": "Joe",
       "methods": [
-        "Персонажи - Цели"
+        "Royal Balloon Pop"
       ]
     },
-    "адмирал фэйрвезер": {
-      "name": "Адмирал Фэйрвезер",
+    "kettle corn": {
+      "name": "Kettle Corn",
       "methods": [
-        "Персонажи - Цели"
+        "Friendship Balloon Pop"
       ]
     },
-    "имбирный пряник": {
-      "name": "Имбирный Пряник",
+    "klugetown basketweaver": {
+      "name": "Klugetown Basketweaver",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (490)"
       ]
     },
-    "полицейский-птица из орнитии": {
-      "name": "Полицейский-птица из Орнитии",
+    "klugetown wool-seller": {
+      "name": "Klugetown Wool-Seller",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (360)"
       ]
     },
-    "пони-гангстер в спортивном костюме": {
-      "name": "Пони-гангстер в спортивном костюме",
+    "lazy fan": {
+      "name": "Lazy Fan",
       "methods": [
-        "Персонажи - Цели"
+        "Daily Goals (785)"
       ]
     },
-    "аэрон вилл": {
-      "name": "Аэрон Вилл",
+    "lightning dust": {
+      "name": "Lightning Dust",
       "methods": [
-        "Синтез - Игра"
+        "Equestria Girls"
       ]
     },
-    "инки роуз": {
-      "name": "Инки Роуз",
+    "lilac links": {
+      "name": "Lilac Links",
       "methods": [
-        "Синтез - Игра"
+        "Friendship Balloon Pop"
       ]
     },
-    "циклон-клон": {
-      "name": "Циклон-Клон",
+    "lilac luster": {
+      "name": "Lilac Luster",
       "methods": [
-        "Синтез - Игра"
+        "Коллекция"
       ]
     },
-    "пони-сюрреалист": {
-      "name": "Пони-Сюрреалист",
+    "lilac sky": {
+      "name": "Lilac Sky",
       "methods": [
-        "Синтез - Игра"
+        "Daily Goals (1960)"
       ]
     },
-    "гом шоппер": {
-      "name": "Гом Шоппер",
+    "limestone pie": {
+      "name": "Limestone Pie",
       "methods": [
-        "Синтез - Игра"
+        "Daily Goals (1175)"
       ]
     },
-    "шэдоу лок": {
-      "name": "Шэдоу Лок",
+    "little strongheart": {
+      "name": "Little Strongheart",
       "methods": [
-        "Синтез - Игра"
+        "Коллекция",
+        "Klugetown Balloon Pop"
       ]
     },
-    "лонг шом": {
-      "name": "Лонг Шом",
+    "liza doolots": {
+      "name": "Liza Doolots",
       "methods": [
-        "Синтез - Игра"
+        "Group Quest Rewards"
       ]
     },
-    "снэп шаттер": {
-      "name": "Снэп Шаттер",
+    "long shot": {
+      "name": "Long Shot",
       "methods": [
-        "Синтез - Игра"
+        "Fusion Pop"
       ]
     },
-    "темперенс флауэрдью": {
-      "name": "Темперенс Флауэрдью",
+    "longhorn's goat": {
+      "name": "Longhorn’s Goat",
       "methods": [
-        "Синтез - Игра"
+        "Royal Balloon Pop"
       ]
     },
-    "пони-строитель": {
-      "name": "Пони-Строитель",
+    "lord goldstone": {
+      "name": "Lord Goldstone",
       "methods": [
-        "Синтез - Игра"
+        "Коллекция"
       ]
     },
-    "шоп-ассистент пони": {
-      "name": "Шоп-Ассистент Пони",
+    "lotus blossom": {
+      "name": "Lotus Blossom",
       "methods": [
-        "Синтез - Игра"
+        "Equestria Girls"
       ]
     },
-    "хэнчпони кабаллерона": {
-      "name": "Хэнчпони Кабаллерона",
+    "louise": {
+      "name": "Louise",
       "methods": [
-        "Синтез - Игра"
+        "Klugetown Balloon Pop",
+        "Group Quest Rewards"
       ]
     },
-    "кобылка сэддл арейбиан": {
-      "name": "Кобылка Сэддл Арейбиан",
+    "lovestruck": {
+      "name": "Lovestruck",
       "methods": [
-        "Синтез - Игра"
+        "Equestria Girls"
       ]
     },
-    "капитан гарпия": {
-      "name": "Капитан Гарпия",
+    "lucky dreams": {
+      "name": "Lucky Dreams",
       "methods": [
-        "Шарики Клуджтауна"
+        "Коллекция"
       ]
     },
-    "пушкин": {
-      "name": "Пушкин",
+    "lunaverse rainbow dash": {
+      "name": "Lunaverse Rainbow Dash",
       "methods": [
-        "Шарики Клуджтауна"
+        "Daily Goals (1960)"
       ]
     },
-    "скэйтл клауджтаунер": {
-      "name": "Скэйтл Клауджтаунер",
+    "lunaverse rarity": {
+      "name": "Lunaverse Rarity",
       "methods": [
-        "Шарики Клуджтауна"
+        "Daily Goals (2355)"
       ]
     },
-    "стратус скайрейнджер": {
-      "name": "Стратус Скайрейнджер",
+    "lyra heartstrings": {
+      "name": "Lyra Heartstrings",
       "methods": [
-        "Шарики Клуджтауна",
-        "Серебрянный Сундук"
+        "Equestria Girls"
       ]
     },
-    "принцесса эмбер": {
-      "name": "Принцесса Эмбер",
+    "lyrica lilac": {
+      "name": "Lyrica Lilac",
       "methods": [
-        "Шарики Клуджтауна"
+        "Royal Balloon Pop"
       ]
     },
-    "перевертыш-проказник": {
-      "name": "Перевертыш-Проказник",
+    "m.c. pony": {
+      "name": "M.C. Pony",
       "methods": [
-        "Шарики Клуджтауна"
+        "Daily Goals (1650)"
       ]
     },
-    "пират романтник": {
-      "name": "Пират Романтник",
+    "mail muffins": {
+      "name": "Mail Muffins",
       "methods": [
-        "Шарики Клуджтауна"
+        "Коллекция"
       ]
     },
-    "пират рарити": {
-      "name": "Пират Рарити",
+    "mare do well": {
+      "name": "Mare Do Well",
       "methods": [
-        "Шарики Клуджтауна"
+        "Klugetown Balloon Pop"
       ]
     },
-    "пирот пинки пай": {
-      "name": "Пирот Пинки Пай",
+    "masked pony gangster": {
+      "name": "Masked Pony Gangster",
       "methods": [
-        "Шарики Клуджтауна"
+        "Magic Chest"
       ]
     },
-    "пират шулер": {
-      "name": "Пират Шулер",
+    "masked stallion": {
+      "name": "Masked Stallion",
       "methods": [
-        "Шарики Клуджтауна"
+        "Коллекция"
       ]
     },
-    "вера": {
-      "name": "Вера",
+    "masseuse pony": {
+      "name": "Masseuse Pony",
       "methods": [
-        "Шарики Клуджтауна"
+        "Equestria Girls"
       ]
     },
-    "модный пони-фотограф": {
-      "name": "Модный Пони-фотограф",
+    "mayor mare": {
+      "name": "Mayor Mare",
       "methods": [
-        "Шарики Клуджтауна"
+        "Equestria Girls"
       ]
     },
-    "чипкуттер": {
-      "name": "Чипкуттер",
+    "mean applejack": {
+      "name": "Mean Applejack",
       "methods": [
-        "Шарики Клуджтауна"
+        "Daily Goals (1880)"
       ]
     },
-    "эрнест клауджтаунер": {
-      "name": "Эрнест Клауджтаунер",
+    "mercury": {
+      "name": "Mercury",
       "methods": [
-        "Шарики Клуджтауна"
+        "Magical Balloon Pop"
       ]
     },
-    "одаренная школьница": {
-      "name": "Одаренная Школьница",
+    "minotaurocellus (purple)": {
+      "name": "Minotaurocellus (Purple)",
       "methods": [
-        "Шарики Клуджтауна"
+        "Daily Goals (2125)"
       ]
     },
-    "крошка стронгхарт": {
-      "name": "Крошка Стронгхарт",
+    "minotaurocellus (red)": {
+      "name": "Minotaurocellus (Red)",
       "methods": [
-        "Шарики Клуджтауна"
+        "Daily Goals (2125)"
       ]
     },
-    "луиза": {
-      "name": "Луиза",
+    "minty": {
+      "name": "Minty",
       "methods": [
-        "Шарики Клуджтауна",
-        "Серебрянный Сундук"
+        "Star Mastery"
       ]
     },
-    "мэо ду вэлл": {
-      "name": "Мэо Ду Вэлл",
+    "minuette": {
+      "name": "Minuette",
       "methods": [
-        "Шарики Клуджтауна"
+        "Equestria Girls"
       ]
     },
-    "поп арт пони": {
-      "name": "Поп Арт Пони",
+    "mistress mare-velous": {
+      "name": "Mistress Mare-velous",
       "methods": [
-        "Шарики Клуджтауна",
-        "Золотой Сундук — Верхний",
-        "Бриллиантовый Сундук — Верхний"
+        "Коллекция"
       ]
     },
-    "фларри харт": {
-      "name": "Фларри Харт",
+    "moody root": {
+      "name": "Moody Root",
       "methods": [
-        "Волшебные Шарики"
+        "Коллекция"
       ]
     },
-    "санберст": {
-      "name": "Санберст",
+    "mr. breezy": {
+      "name": "Mr. Breezy",
       "methods": [
-        "Волшебные Шарики"
+        "Royal Balloon Pop",
+        "Equestria Girls"
       ]
     },
-    "гламур глим": {
-      "name": "Гламур Глим",
+    "mr. cake": {
+      "name": "Mr. Cake",
       "methods": [
-        "Волшебные Шарики"
+        "Friendship Balloon Pop"
       ]
     },
-    "меркури": {
-      "name": "Меркури",
+    "mr. carrot cake": {
+      "name": "Mr. Carrot Cake",
       "methods": [
-        "Волшебные Шарики"
+        "Equestria Girls"
       ]
     },
-    "бабушка йоны": {
-      "name": "Бабушка Йоны",
+    "mrs. cup cake": {
+      "name": "Mrs. Cup Cake",
       "methods": [
-        "Волшебные Шарики"
+        "Коллекция",
+        "Friendship Balloon Pop",
+        "Equestria Girls"
       ]
     },
-    "дедушка йоны": {
-      "name": "Дедушка Йоны",
+    "mrs. paleo": {
+      "name": "Mrs. Paleo",
       "methods": [
-        "Волшебные Шарики"
+        "Daily Goals (1310)"
       ]
     },
-    "кристальный продавец": {
-      "name": "Кристальный Продавец",
+    "ms. conductor": {
+      "name": "Ms. Conductor",
       "methods": [
-        "Волшебные Шарики"
+        "Daily Goals (2550)"
       ]
     },
-    "гелия": {
-      "name": "Гелия",
+    "ms. harshwhinny": {
+      "name": "Ms. Harshwhinny",
       "methods": [
-        "Волшебные Шарики"
+        "Daily Goals (850)"
       ]
     },
-    "малыш вайолет кристалл": {
-      "name": "Малыш Вайолет Кристалл",
+    "nearsighted future ponyville citizen": {
+      "name": "Nearsighted Future Ponyville Citizen",
       "methods": [
-        "Волшебные Шарики"
+        "Daily Goals (2355)"
       ]
     },
-    "малыш вайт кристалл": {
-      "name": "Малыш Вайт Кристалл",
+    "neat-maned townspony": {
+      "name": "Neat-Maned Townspony",
       "methods": [
-        "Волшебные Шарики"
+        "Group Quest Rewards"
       ]
     },
-    "малышка аква кристалл": {
-      "name": "Малышка Аква Кристалл",
+    "night light": {
+      "name": "Night Light",
       "methods": [
-        "Волшебные Шарики"
+        "Equestria Girls"
       ]
     },
-    "малыш блу кристалл": {
-      "name": "Малыш Блу Кристалл",
+    "nightmare night zecora": {
+      "name": "Nightmare Night Zecora",
       "methods": [
-        "Волшебные Шарики"
+        "Коллекция"
       ]
     },
-    "малышка пинк кристалл": {
-      "name": "Малышка Пинк Кристалл",
+    "nimbus dash": {
+      "name": "Nimbus Dash",
       "methods": [
-        "Волшебные Шарики"
+        "Daily Goals (820)"
       ]
     },
-    "трикси луламун": {
-      "name": "Трикси Луламун",
+    "nosfurarity": {
+      "name": "Nosfurarity",
       "methods": [
-        "Королевские Шарики"
+        "Daily Goals (2730)"
       ]
     },
-    "принцесса селестия": {
-      "name": "Принцесса Селестия",
+    "nurse snowheart": {
+      "name": "Nurse Snowheart",
       "methods": [
-        "Королевские Шарики"
+        "Group Quest Rewards"
       ]
     },
-    "сассафлэш": {
-      "name": "Сассафлэш",
+    "ocellus's brother": {
+      "name": "Ocellus’s Brother",
       "methods": [
-        "Королевские Шарики"
+        "Daily Goals (1225)"
       ]
     },
-    "лирика лилак": {
-      "name": "Лирика Лилак",
+    "octavia melody": {
+      "name": "Octavia Melody",
       "methods": [
-        "Королевские Шарики"
+        "Royal Balloon Pop",
+        "Equestria Girls"
       ]
     },
-    "пони зрительница": {
-      "name": "Пони Зрительница",
+    "old-timey quilter": {
+      "name": "Old-Timey Quilter",
       "methods": [
-        "Королевские Шарики"
+        "Коллекция"
       ]
     },
-    "козел лонгхорна": {
-      "name": "Козел Лонгхорна",
+    "ornithian barista": {
+      "name": "Ornithian Barista",
       "methods": [
-        "Королевские Шарики"
+        "Magic Chest"
       ]
     },
-    "черри берри": {
-      "name": "Черри Берри",
+    "ornithian policebird": {
+      "name": "Ornithian Policebird",
       "methods": [
-        "Королевские Шарики"
+        "Daily Goals (3295)"
       ]
     },
-    "нормальный член комитета": {
-      "name": "Нормальный Член Комитета",
+    "outdoorsy somnambulan": {
+      "name": "Outdoorsy Somnambulan",
       "methods": [
-        "Королевские Шарики"
+        "Magic Chest"
       ]
     },
-    "элит пони": {
-      "name": "Элит Пони",
+    "parish nandermane": {
+      "name": "Parish Nandermane",
       "methods": [
-        "Королевские Шарики"
+        "Коллекция",
+        "Equestria Girls"
       ]
     },
-    "файн лайн": {
-      "name": "Файн Лайн",
+    "pegasus courier": {
+      "name": "Pegasus Courier",
       "methods": [
-        "Королевские Шарики"
+        "Коллекция"
       ]
     },
-    "голден хорвест": {
-      "name": "Голден Хорвест",
+    "periwinkle townspony": {
+      "name": "Periwinkle Townspony",
       "methods": [
-        "Королевские Шарики"
+        "Daily Goals (1145)"
       ]
     },
-    "джо": {
-      "name": "Джо",
+    "personal shopper pony": {
+      "name": "Personal Shopper Pony",
       "methods": [
-        "Королевские Шарики"
+        "Fusion Pop"
       ]
     },
-    "эппл синнамон": {
-      "name": "Эппл Синнамон",
+    "pickle barrel": {
+      "name": "Pickle Barrel",
       "methods": [
-        "Королевские Шарики"
+        "Daily Goals (1960)"
       ]
     },
-    "а. к. ирлинг": {
-      "name": "А. К. Ирлинг",
+    "pie-hating rainbow dash": {
+      "name": "Pie-Hating Rainbow Dash",
       "methods": [
-        "Королевские Шарики"
+        "Коллекция"
       ]
     },
-    "жизнерадостный зефир": {
-      "name": "Жизнерадостный Зефир",
+    "pink crystal foal": {
+      "name": "Pink Crystal Foal",
       "methods": [
-        "Королевские Шарики"
+        "Magical Balloon Pop"
       ]
     },
-    "пони-растение": {
-      "name": "Пони-растение",
+    "pink-maned filly": {
+      "name": "Pink-Maned Filly",
       "methods": [
-        "Королевские Шарики"
+        "Daily Goals (1175)",
+        "Magic Chest"
       ]
     },
-    "джеминталь дутешественник": {
-      "name": "Джеминталь Дутешественник",
+    "pipsqueak": {
+      "name": "Pipsqueak",
       "methods": [
-        "Королевские Шарики"
+        "Equestria Girls"
       ]
     },
-    "мэо путешественница": {
-      "name": "Мэо Путешественница",
+    "pirate applejack": {
+      "name": "Pirate Applejack",
       "methods": [
-        "Королевские Шарики"
+        "Daily Goals (2355)"
       ]
     },
-    "кеттл корн": {
-      "name": "Кеттл Корн",
+    "pirate pinkie pie": {
+      "name": "Pirate Pinkie Pie",
       "methods": [
-        "Шарики Дружбы"
+        "Klugetown Balloon Pop"
       ]
     },
-    "тандерлейн": {
-      "name": "Тандерлейн",
+    "pirate rarity": {
+      "name": "Pirate Rarity",
       "methods": [
-        "Шарики Дружбы"
+        "Klugetown Balloon Pop",
+        "Daily Goals (1570)"
       ]
     },
-    "флорина тарт": {
-      "name": "Флорина Тарт",
+    "pistachio": {
+      "name": "Pistachio",
       "methods": [
-        "Шарики Дружбы"
+        "Find a Pair"
       ]
     },
-    "лилак линкс": {
-      "name": "Лилак Линкс",
+    "plant creature pony": {
+      "name": "Plant Creature Pony",
       "methods": [
-        "Шарики Дружбы"
+        "Royal Balloon Pop"
       ]
     },
-    "оранжевая горожанка": {
-      "name": "Оранжевая Горожанка",
+    "poindexter": {
+      "name": "Poindexter",
       "methods": [
-        "Серебрянный Сундук"
+        "Daily Goals (1310)"
       ]
     },
-    "сестричка сноухарт": {
-      "name": "Сестричка Сноухарт",
+    "ponyacci": {
+      "name": "Ponyacci",
       "methods": [
-        "Серебрянный Сундук",
-        "Золотой Сундук — Нижний",
-        "Золотой Сундук — Средний",
-        "Золотой Сундук — Верхний",
-        "Бриллиантовый Сундук — Нижний",
-        "Бриллиантовый Сундук — Средний",
-        "Бриллиантовый Сундук — Верхний"
+        "Magic Chest"
       ]
     },
-    "дрилл бит": {
-      "name": "Дрилл Бит",
+    "poné fantastique stage manager": {
+      "name": "Poné Fantastique Stage Manager",
       "methods": [
-        "Серебрянный Сундук"
+        "Daily Goals (2745)"
       ]
     },
-    "школьница умняшка": {
-      "name": "Школьница Умняшка",
+    "poofy-maned schoolpony": {
+      "name": "Poofy-Maned Schoolpony",
       "methods": [
-        "Серебрянный Сундук"
+        "Group Quest Rewards"
       ]
     },
-    "торговка хрустальными кубками": {
-      "name": "Торговка Хрустальными Кубками",
+    "pop art pony": {
+      "name": "Pop Art Pony",
       "methods": [
-        "Серебрянный Сундук"
+        "Klugetown Balloon Pop",
+        "Group Quest Rewards"
       ]
     },
-    "рамблер": {
-      "name": "Рамблер",
+    "prince blueblood": {
+      "name": "Prince Blueblood",
       "methods": [
-        "Серебрянный Сундук",
-        "Золотой Сундук — Нижний",
-        "Золотой Сундук — Средний",
-        "Золотой Сундук — Верхний",
-        "Бриллиантовый Сундук — Нижний",
-        "Бриллиантовый Сундук — Средний",
-        "Бриллиантовый Сундук — Верхний"
+        "Equestria Girls"
       ]
     },
-    "ночной страж кантерлота": {
-      "name": "Ночной Страж Кантерлота",
+    "princess ambrosia muffinbuns": {
+      "name": "Princess Ambrosia Muffinbuns",
       "methods": [
-        "Серебрянный Сундук",
-        "Золотой Сундук — Средний",
-        "Золотой Сундук — Верхний",
-        "Бриллиантовый Сундук — Средний",
-        "Бриллиантовый Сундук — Верхний"
+        "Magic Chest"
       ]
     },
-    "тузи клуджтаунер": {
-      "name": "Тузи Клуджтаунер",
+    "princess cadance": {
+      "name": "Princess Cadance",
       "methods": [
-        "Серебрянный Сундук"
+        "Equestria Girls"
       ]
     },
-    "джетстрим": {
-      "name": "Джетстрим",
+    "princess celestia": {
+      "name": "Princess Celestia",
       "methods": [
-        "Серебрянный Сундук",
-        "Золотой Сундук — Средний",
-        "Золотой Сундук — Верхний",
-        "Бриллиантовый Сундук — Средний",
-        "Бриллиантовый Сундук — Верхний"
+        "Royal Balloon Pop"
       ]
     },
-    "принцесса небесная звезда": {
-      "name": "Принцесса Небесная Звезда",
+    "princess ember": {
+      "name": "Princess Ember",
       "methods": [
-        "Серебрянный Сундук",
-        "Бриллиантовый Сундук — Верхний"
+        "Коллекция",
+        "Klugetown Balloon Pop"
       ]
     },
-    "царица клеопатрат": {
-      "name": "Царица Клеопатрат",
+    "princess luna's royal guard": {
+      "name": "Princess Luna’s Royal Guard",
       "methods": [
-        "Серебрянный Сундук"
+        "Equestria Girls"
       ]
     },
-    "хуу'фар": {
-      "name": "Хуу'Фар",
+    "princess skystar": {
+      "name": "Princess Skystar",
       "methods": [
-        "Серебрянный Сундук"
+        "Group Quest Rewards"
       ]
     },
-    "школьник-игрок": {
-      "name": "Школьник-Игрок",
+    "professor fossil": {
+      "name": "Professor Fossil",
       "methods": [
-        "Золотой Сундук — Нижний",
-        "Золотой Сундук — Средний",
-        "Золотой Сундук — Верхний"
+        "Daily Goals (2425)"
       ]
     },
-    "стинки боттом": {
-      "name": "Стинки Боттом",
+    "professor neigh": {
+      "name": "Professor Neigh",
       "methods": [
-        "Золотой Сундук — Нижний"
+        "Equestria Girls"
       ]
     },
-    "продавщица ароматов": {
-      "name": "Продавщица ароматов",
+    "pushkin": {
+      "name": "Pushkin",
       "methods": [
-        "Золотой Сундук — Нижний"
+        "Klugetown Balloon Pop"
       ]
     },
-    "школьник-большеротик": {
-      "name": "Школьник-Большеротик",
+    "queen cleopatrot": {
+      "name": "Queen Cleopatrot",
       "methods": [
-        "Золотой Сундук — Нижний",
-        "Золотой Сундук — Средний",
-        "Золотой Сундук — Верхний"
+        "Group Quest Rewards"
       ]
     },
-    "лиза дулотс": {
-      "name": "Лиза Дулотс",
+    "quiet somnambulan": {
+      "name": "Quiet Somnambulan",
       "methods": [
-        "Золотой Сундук — Нижний",
-        "Золотой Сундук — Средний",
-        "Золотой Сундук — Верхний"
+        "Коллекция"
       ]
     },
-    "лорд джестал": {
-      "name": "Лорд Джестал",
+    "rambler": {
+      "name": "Rambler",
       "methods": [
-        "Золотой Сундук — Средний",
-        "Золотой Сундук — Верхний",
-        "Бриллиантовый Сундук — Нижний",
-        "Бриллиантовый Сундук — Средний",
-        "Бриллиантовый Сундук — Верхний"
+        "Group Quest Rewards"
       ]
     },
-    "тетя холидей": {
-      "name": "Тетя Холидей",
+    "retro spike": {
+      "name": "Retro Spike",
       "methods": [
-        "Золотой Сундук — Средний",
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "бородатый холлоувиан": {
-      "name": "Бородатый Холлоувиан",
+    "richard (the) hoovenheart": {
+      "name": "Richard (the) Hoovenheart",
       "methods": [
-        "Золотой Сундук — Средний"
+        "Crystal Mine"
       ]
     },
-    "грифон гонщица": {
-      "name": "Грифон Гонщица",
+    "romantic pirate": {
+      "name": "Romantic Pirate",
       "methods": [
-        "Золотой Сундук — Средний",
-        "Золотой Сундук — Верхний",
-        "Бриллиантовый Сундук — Средний",
-        "Бриллиантовый Сундук — Верхний"
+        "Klugetown Balloon Pop"
       ]
     },
-    "лорд голдстоун": {
-      "name": "Лорд Голдстоун",
+    "royal pin": {
+      "name": "Royal Pin",
       "methods": [
-        "Золотой Сундук — Средний",
-        "Бриллиантовый Сундук — Нижний",
-        "Бриллиантовый Сундук — Средний",
-        "Бриллиантовый Сундук — Верхний"
+        "Коллекция"
       ]
     },
-    "хитрый хвост": {
-      "name": "Хитрый Хвост",
+    "russet-maned future townspony": {
+      "name": "Russet-Maned Future Townspony",
       "methods": [
-        "Золотой Сундук — Верхний",
-        "Бриллиантовый Сундук — Верхний"
+        "Daily Goals (1960)"
       ]
     },
-    "абиссинская царица": {
-      "name": "Абиссинская Царица",
+    "saddle arabian mare": {
+      "name": "Saddle Arabian Mare",
       "methods": [
-        "Золотой Сундук — Верхний"
+        "Коллекция",
+        "Fusion Pop"
       ]
     },
-    "императорский алахимик": {
-      "name": "Императорский Алахимик",
+    "sandbar's sister": {
+      "name": "Sandbar’s Sister",
       "methods": [
-        "Золотой Сундук — Верхний"
+        "Daily Goals (1650)"
       ]
     },
-    "пони кейк из будущего": {
-      "name": "Пони Кейк из будущего",
+    "sapphire shores": {
+      "name": "Sapphire Shores",
       "methods": [
-        "Золотой Сундук — Верхний"
+        "Royal Balloon Pop",
+        "Equestria Girls"
       ]
     },
-    "абиссинский царь": {
-      "name": "Абиссинский Царь",
+    "sassaflash": {
+      "name": "Sassaflash",
       "methods": [
-        "Золотой Сундук — Верхний",
-        "Бриллиантовый Сундук — Верхний"
+        "Royal Balloon Pop"
       ]
     },
-    "школьник-плющевая грива": {
-      "name": "Школьник-Плющевая грива",
+    "scales": {
+      "name": "Scales",
       "methods": [
-        "Золотой Сундук — Верхний"
+        "Daily Goals (2120)"
       ]
     },
-    "лорд голдсмоун": {
-      "name": "Лорд Голдсмоун",
+    "scaly klugetowner": {
+      "name": "Scaly Klugetowner",
       "methods": [
-        "Золотой Сундук — Верхний"
+        "Klugetown Balloon Pop"
       ]
     },
-    "школьник проныра": {
-      "name": "Школьник Проныра",
+    "scootaloo": {
+      "name": "Scootaloo",
       "methods": [
-        "Бриллиантовый Сундук — Нижний",
-        "Бриллиантовый Сундук — Средний",
-        "Бриллиантовый Сундук — Верхний"
+        "Equestria Girls"
       ]
     },
-    "гаффер": {
-      "name": "Гаффер",
+    "sea swirl": {
+      "name": "Sea Swirl",
       "methods": [
-        "Бриллиантовый Сундук — Нижний"
+        "Коллекция"
       ]
     },
-    "гранд пиар": {
-      "name": "Гранд Пиар",
+    "security guard pony": {
+      "name": "Security Guard Pony",
       "methods": [
-        "Бриллиантовый Сундук — Нижний"
+        "Daily Goals (825)"
       ]
     },
-    "чудо-молния с начесом из будущего": {
-      "name": "Чудо-Молния с начесом из будущего",
+    "shadow lock": {
+      "name": "Shadow Lock",
       "methods": [
-        "Бриллиантовый Сундук — Средний"
+        "Fusion Pop"
       ]
     },
-    "фиолетовая горожанка из будущего": {
-      "name": "Фиолетовая горожанка из будущего",
+    "sheer perfection": {
+      "name": "Sheer Perfection",
       "methods": [
-        "Бриллиантовый Сундук — Средний"
+        "Daily Goals (2590)"
       ]
     },
-    "царица клеопатрот": {
-      "name": "Царица Клеопатрот",
+    "shining armor": {
+      "name": "Shining Armor",
       "methods": [
-        "Бриллиантовый Сундук — Верхний"
+        "Equestria Girls"
       ]
     },
-    "аббисинская царица": {
-      "name": "Аббисинская Царица",
+    "silent magician pony": {
+      "name": "Silent Magician Pony",
       "methods": [
-        "Бриллиантовый Сундук — Верхний"
+        "Magic Chest"
       ]
     },
-    "спиэрхед": {
-      "name": "Спиэрхед",
+    "silver shill": {
+      "name": "Silver Shill",
       "methods": [
-        "Бриллиантовый Сундук — Верхний"
+        "Daily Goals (1130)"
       ]
     },
-    "жаргон": {
-      "name": "Жаргон",
+    "silver spanner": {
+      "name": "Silver Spanner",
       "methods": [
-        "Бриллиантовый Сундук — Верхний"
+        "Коллекция"
       ]
     },
-    "шиффон сверл": {
-      "name": "Шиффон Сверл",
+    "silver spoon": {
+      "name": "Silver Spoon",
       "methods": [
-        "Бриллиантовый Сундук — Верхний"
+        "Equestria Girls"
       ]
     },
-    "пони таймкипер": {
-      "name": "Пони Таймкипер",
+    "skeptical old wonderbolt": {
+      "name": "Skeptical Old Wonderbolt",
       "methods": [
-        "Бриллиантовый Сундук — Верхний"
+        "Daily Goals (2355)"
       ]
     },
-    "словоохот кантер-крик": {
-      "name": "Словоохот Кантер-Крик",
+    "sludge": {
+      "name": "Sludge",
       "methods": [
-        "Сундук За Ключи"
+        "Daily Goals (2355)"
       ]
     },
-    "принцесса амброзия маффинбанз": {
-      "name": "Принцесса Амброзия Маффинбанз",
+    "smiley somnambulan": {
+      "name": "Smiley Somnambulan",
       "methods": [
-        "Сундук За Ключи"
+        "Daily Goals (1800)"
       ]
     },
-    "молчаливый пони-фокусник": {
-      "name": "Молчаливый Пони-Фокусник",
+    "smug diamond dog": {
+      "name": "Smug Diamond Dog",
       "methods": [
-        "Сундук За Ключи"
+        "Daily Goals (2290)"
       ]
     },
-    "орнитианский бариста": {
-      "name": "Орнитианский бариста",
+    "snake-charming colt": {
+      "name": "Snake-Charming Colt",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "понияцци": {
-      "name": "Понияцци",
+    "snappy scoop": {
+      "name": "Snappy Scoop",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "горожанин кантер-крик": {
-      "name": "Горожанин Кантер-Крик",
+    "snips": {
+      "name": "Snips",
       "methods": [
-        "Сундук За Ключи"
+        "Equestria Girls"
       ]
     },
-    "спуки дигнитари": {
-      "name": "Спуки Дигнитари",
+    "soarin": {
+      "name": "Soarin",
       "methods": [
-        "Сундук За Ключи"
+        "Equestria Girls"
       ]
     },
-    "доран": {
-      "name": "Доран",
+    "somnambulan storyteller": {
+      "name": "Somnambulan Storyteller",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "гнедой страж леса": {
-      "name": "Гнедой Страж Леса",
+    "spectator pony": {
+      "name": "Spectator Pony",
       "methods": [
-        "Сундук За Ключи"
+        "Royal Balloon Pop"
       ]
     },
-    "папа алмазный пес": {
-      "name": "Папа Алмазный Пес",
+    "speedy old wonderbolt": {
+      "name": "Speedy Old Wonderbolt",
       "methods": [
-        "Сундук За Ключи"
+        "Daily Goals (2355)"
       ]
     },
-    "кантерлотский пекарь": {
-      "name": "Кантерлотский Пекарь",
+    "spitfire": {
+      "name": "Spitfire",
       "methods": [
-        "Сундук За Ключи"
+        "Equestria Girls"
       ]
     },
-    "дистемпер": {
-      "name": "Дистемпер",
+    "spoiled rich": {
+      "name": "Spoiled Rich",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "сестра игогогейл": {
-      "name": "Сестра Игогогейл",
+    "spooky dignitary": {
+      "name": "Spooky Dignitary",
       "methods": [
-        "Сундук За Ключи"
+        "Magic Chest"
       ]
     },
-    "гейман": {
-      "name": "Гейман",
+    "star tracker": {
+      "name": "Star Tracker",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "вермут ру": {
-      "name": "Вермут Ру",
+    "starlight glimmer": {
+      "name": "Starlight Glimmer",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "пони-гангстер маске": {
-      "name": "Пони-гангстер маске",
+    "starstreak": {
+      "name": "Starstreak",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "активный сомнамбулианец": {
-      "name": "Активный Сомнамбулианец",
+    "starswirl the bearded": {
+      "name": "Starswirl the Bearded",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "джейд сингер": {
-      "name": "Джейд Сингер",
+    "stinky bottom": {
+      "name": "Stinky Bottom",
       "methods": [
-        "Сундук За Ключи"
+        "Group Quest Rewards"
       ]
     },
-    "джегд клэмп": {
-      "name": "Джегд Клэмп",
+    "storm king's guard": {
+      "name": "Storm King’s Guard",
       "methods": [
-        "Сундук За Ключи"
+        "Daily Goals (1145)"
       ]
     },
-    "кобылка пинк-мэнд": {
-      "name": "Кобылка Пинк-Мэнд",
+    "stratus skyranger": {
+      "name": "Stratus Skyranger",
       "methods": [
-        "Сундук За Ключи"
+        "Klugetown Balloon Pop",
+        "Group Quest Rewards"
       ]
     },
-    "страж бури": {
-      "name": "Страж Бури",
+    "stubborn crystal pony": {
+      "name": "Stubborn Crystal Pony",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "невозмутимая официантка": {
-      "name": "Невозмутимая Официантка",
+    "stuffy dignitary": {
+      "name": "Stuffy Dignitary",
       "methods": [
-        "Сундук За Ключи"
+        "Daily Goals (3060)"
       ]
     },
-    "измученная официантка": {
-      "name": "Измученная Официантка",
+    "stylish fan": {
+      "name": "Stylish Fan",
       "methods": [
-        "Сундук За Ключи"
+        "Daily Goals (1650)"
       ]
     },
-    "массивный курортник": {
-      "name": "Массивный Курортник",
+    "sugar belle": {
+      "name": "Sugar Belle",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "сильвер стрик": {
-      "name": "Сильвер Стрик",
+    "sunburst": {
+      "name": "Sunburst",
       "methods": [
-        "Сундук За Ключи"
+        "Magical Balloon Pop"
       ]
     },
-    "блейд спаркс": {
-      "name": "Блейд Спаркс",
+    "sunset shimmer": {
+      "name": "Sunset Shimmer",
       "methods": [
-        "Сундук За Ключи"
+        "Equestria Girls"
       ]
     },
-    "айшейд пони": {
-      "name": "Айшейд Пони",
+    "swan song": {
+      "name": "Swan Song",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "писташио": {
-      "name": "Писташио",
+    "swashbuckling pirate": {
+      "name": "Swashbuckling Pirate",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "элегантная сотрудница эоа": {
-      "name": "Элегантная сотрудница ЭОА",
+    "sweetie belle": {
+      "name": "Sweetie Belle",
       "methods": [
-        "Сундук За Ключи"
+        "Equestria Girls"
       ]
     },
-    "большой папаша маккольт": {
-      "name": "Большой папаша МакКольт",
+    "swoony fanfilly": {
+      "name": "Swoony Fanfilly",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "темный кварц": {
-      "name": "Темный Кварц",
+    "teashop pony": {
+      "name": "Teashop Pony",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "минти": {
-      "name": "Минти",
+    "temperance flowerdew": {
+      "name": "Temperance Flowerdew",
       "methods": [
-        "Сундук За Ключи"
+        "Fusion Pop"
       ]
     },
-    "астро-пони": {
-      "name": "Астро-Пони",
+    "tempest's guard": {
+      "name": "Tempest’s Guard",
       "methods": [
-        "Сундук За Ключи"
+        "Magic Chest"
       ]
     },
-    "ричард хувенхарт": {
-      "name": "Ричард Хувенхарт",
+    "tempest's skiff": {
+      "name": "Tempest’s Skiff",
       "methods": [
-        "Сундук За Ключи"
+        "Group Quest Rewards"
       ]
     },
-    "трендерхуф": {
-      "name": "Трендерхуф",
+    "the olden pony": {
+      "name": "The Olden Pony",
       "methods": [
-        "Сундук За Ключи"
+        "Коллекция"
       ]
     },
-    "доктор кабаллерон": {
-      "name": "Доктор Кабаллерон",
+    "thunderlane": {
+      "name": "Thunderlane",
       "methods": [
-        "Сундук За Ключи"
+        "Friendship Balloon Pop"
       ]
     },
-    "маг медоубрук": {
-      "name": "Маг Медоубрук",
+    "tight ship": {
+      "name": "Tight Ship",
       "methods": [
-        "Сундук За Ключи"
+        "Daily Goals (3060)"
+      ]
+    },
+    "toola roola": {
+      "name": "Toola Roola",
+      "methods": [
+        "Коллекция"
+      ]
+    },
+    "toothy klugetowner": {
+      "name": "Toothy Klugetowner",
+      "methods": [
+        "Group Quest Rewards"
+      ]
+    },
+    "tortoise-racing pony": {
+      "name": "Tortoise-Racing Pony",
+      "methods": [
+        "Daily Goals (2120)"
+      ]
+    },
+    "tracksuited gangster pony": {
+      "name": "Tracksuited Gangster Pony",
+      "methods": [
+        "Daily Goals (3295)"
+      ]
+    },
+    "traveling gentlecolt": {
+      "name": "Traveling Gentlecolt",
+      "methods": [
+        "Royal Balloon Pop"
+      ]
+    },
+    "traveling mare": {
+      "name": "Traveling Mare",
+      "methods": [
+        "Royal Balloon Pop"
+      ]
+    },
+    "trendy hype pony": {
+      "name": "Trendy Hype Pony",
+      "methods": [
+        "Daily Goals (1175)"
+      ]
+    },
+    "trendy photographer pony": {
+      "name": "Trendy Photographer Pony",
+      "methods": [
+        "Коллекция",
+        "Klugetown Balloon Pop"
+      ]
+    },
+    "trickster changeling": {
+      "name": "Trickster Changeling",
+      "methods": [
+        "Klugetown Balloon Pop"
+      ]
+    },
+    "trim eea official": {
+      "name": "Trim EEA Official",
+      "methods": [
+        "Find a Pair"
+      ]
+    },
+    "trixie lulamoon": {
+      "name": "Trixie Lulamoon",
+      "methods": [
+        "Royal Balloon Pop"
+      ]
+    },
+    "truffle": {
+      "name": "Truffle",
+      "methods": [
+        "Equestria Girls"
+      ]
+    },
+    "twilight velvet": {
+      "name": "Twilight Velvet",
+      "methods": [
+        "Royal Balloon Pop",
+        "Equestria Girls"
+      ]
+    },
+    "twinkleshine": {
+      "name": "Twinkleshine",
+      "methods": [
+        "Royal Balloon Pop",
+        "Equestria Girls"
+      ]
+    },
+    "twist": {
+      "name": "Twist",
+      "methods": [
+        "Royal Balloon Pop",
+        "Equestria Girls"
+      ]
+    },
+    "uncertain diamond dog": {
+      "name": "Uncertain Diamond Dog",
+      "methods": [
+        "Daily Goals (2745)"
+      ]
+    },
+    "uncle orange": {
+      "name": "Uncle Orange",
+      "methods": [
+        "Equestria Girls"
+      ]
+    },
+    "unlucky pony": {
+      "name": "Unlucky Pony",
+      "methods": [
+        "Daily Goals (980)"
+      ]
+    },
+    "vera": {
+      "name": "Vera",
+      "methods": [
+        "Klugetown Balloon Pop"
+      ]
+    },
+    "vermouth roux": {
+      "name": "Vermouth Roux",
+      "methods": [
+        "Magic Chest"
+      ]
+    },
+    "violet crystal foal": {
+      "name": "Violet Crystal Foal",
+      "methods": [
+        "Magical Balloon Pop"
+      ]
+    },
+    "violet dragon": {
+      "name": "Violet Dragon",
+      "methods": [
+        "Коллекция"
+      ]
+    },
+    "violet-maned future townspony": {
+      "name": "Violet-Maned Future Townspony",
+      "methods": [
+        "Magic Chest"
+      ]
+    },
+    "violist pony": {
+      "name": "Violist Pony",
+      "methods": [
+        "Daily Goals (1885)"
+      ]
+    },
+    "white crystal foal": {
+      "name": "White Crystal Foal",
+      "methods": [
+        "Magical Balloon Pop"
+      ]
+    },
+    "wild fan": {
+      "name": "Wild Fan",
+      "methods": [
+        "Daily Goals (1555)"
+      ]
+    },
+    "winsome schoolpony": {
+      "name": "Winsome Schoolpony",
+      "methods": [
+        "Коллекция"
+      ]
+    },
+    "winter comet": {
+      "name": "Winter Comet",
+      "methods": [
+        "Daily Goals (1470)"
+      ]
+    },
+    "yona's grandma": {
+      "name": "Yona’s Grandma",
+      "methods": [
+        "Magical Balloon Pop"
+      ]
+    },
+    "yona's grandpa": {
+      "name": "Yona’s Grandpa",
+      "methods": [
+        "Magical Balloon Pop"
+      ]
+    },
+    "zecora": {
+      "name": "Zecora",
+      "methods": [
+        "Equestria Girls"
+      ]
+    },
+    "тёмный кварц": {
+      "name": "Тёмный Кварц",
+      "methods": [
+        "Star Mastery"
       ]
     }
   }

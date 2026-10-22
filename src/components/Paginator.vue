@@ -173,7 +173,7 @@ if (props.param) {
     display: grid;
     justify-content: center;
     justify-items: stretch;
-    font-size: 2rem;
+    font-size: 1.35rem;
     gap: 0.5rem;
 
     grid-template-columns: repeat( calc(v-bind('pageList?.length') + 2), 1fr );
@@ -188,7 +188,7 @@ if (props.param) {
 }
 
 .paginator-button {
-    font-size: 2rem;
+    font-size: 1.35rem;
     font-family: var(--font-family);
     background: none;
     border: none;

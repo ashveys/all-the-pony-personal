@@ -241,7 +241,7 @@ const xpName = translateName(getObject('XP', 'item'))
     position: relative;
     width: 12rem;
     height: 13rem;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 
 .left-image-container,

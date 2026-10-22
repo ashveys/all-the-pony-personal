@@ -105,7 +105,7 @@ const fortuneShopData = computed(() => getFortuneShopData(pet.value.id))
 <style lang="css" scoped>
 
 .bonus-info {
-    font-size: 1.6rem;
+    font-size: 1.25rem;
     margin-block: 1rem;
 }
 

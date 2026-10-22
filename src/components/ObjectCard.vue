@@ -8,7 +8,6 @@ import { shopStore } from "@/stores/shopManager"
 import type { GameObject, GameObjectId, PonyType } from "@/types/gameDataTypes"
 import { computedAsync } from "@vueuse/core"
 import { computed, shallowRef } from 'vue'
-import AddToListButton from "./buttons/AddToListButton.vue"
 import GameCard from "./GameCard.vue"
 import CollectionButton from "./buttons/CollectionButton.vue"
 import { modifyUrl } from "vike/modifyUrl"
@@ -141,7 +140,6 @@ const shopInfo = computedAsync(
         </template>
         <template #right>
             <inventory-add-button v-if="gameObject && props.hasButtons && canAdd" :gameObject="gameObject?.id" />
-            <AddToListButton v-if="gameObject && props.hasButtons" :gameObject="gameObject?.id"></AddToListButton>
         </template>
         <template #info>
             <slot name="info"></slot>

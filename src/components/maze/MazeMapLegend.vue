@@ -27,7 +27,7 @@ import { mazeTileConfig } from '@/scripts/maze/tiles';
 }
 
 .legend-heading {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
 }
 

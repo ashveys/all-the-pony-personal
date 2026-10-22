@@ -145,7 +145,7 @@ if (props.open) {
     padding: 0.2em 1em;
     color: white;
     text-shadow: var(--text-shadow);
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 
     perspective-origin: 50% 50%;
     perspective: 300px;
@@ -180,7 +180,7 @@ if (props.open) {
     right: 0;
     translate: 50% -50%;
 
-    font-size: 2rem;
+    font-size: 1.35rem;
     width: 1.2em;
     height: 1.2em;
 }
