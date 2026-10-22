@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "compatibility_date": "2026-07-16",
+  "name": "all-the-ponies-personal",
+  "main": "vike:server-entry",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "logs": { "enabled": true, "invocation_logs": true }
+  }
+}

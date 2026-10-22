@@ -1,0 +1,584 @@
+{
+  "about": {
+    "description": {
+      "body": "All The Ponies, başlangıçta {me} tarafından {quiz_link} için bir web sitesi olarak oluşturuldu, çünkü internette bulduğum bir test ponyler hakkında sadece yüzeysel bilgiler veriyordu. Daha sonra, oyun içindeki şeyler hakkında kesin bilgiler sunan, sahip olduklarınızı takip edebileceğiniz ve elbette oynayabileceğiniz küçük etkinlikler içeren bir kaynak haline geldi.",
+      "quiz_link": "Olabildiğince çok pony ismi tahin edin"
+    },
+    "sections": {
+      "credits": {
+        "check_failed": "Hata: Çevirici yüklenemedi",
+        "message": {
+          "credits_list": {
+            "1": "Bu web sitesi {ego} tarafından yapıldı.",
+            "2": "Ponyleri arkadaş koduyla yüklemede yardımcı olduğu için {bass}'a teşekkürler.",
+            "3": "Kullanılan yazı tipi aynı zamanda oyunda da kullanılan {font}",
+            "4": "Bu web sitesi hayatı kolaylaştırmak ve daha dinamik bir deneyim sunabilmek için {vue} ile tasarlandı."
+          }
+        },
+        "title": "Katkıda bulunanlar"
+      },
+      "translations": {
+        "title": "Çeviriler"
+      }
+    },
+    "title": "Hakkında"
+  },
+  "button": {
+    "cancel": "İptal",
+    "close": "Kapat",
+    "done": "Bitir",
+    "edit": "Düzenle",
+    "hint": "İpucu",
+    "no": "Hayır",
+    "ok": "Tamam",
+    "resume": "Sürdür",
+    "share": "Paylaş",
+    "skip": "Geç",
+    "start": "Başla",
+    "stop": "Dur",
+    "yes": "Evet"
+  },
+  "check_save": {
+    "messages": {
+      "check": "Göz At"
+    }
+  },
+  "collection": {
+    "collection": "Koleksiyon | Koleksiyonlar",
+    "message": {
+      "alt_reward": "Alternatif Ödül",
+      "progress": "İLERLEME:",
+      "reward": "Ödül"
+    }
+  },
+  "common": {
+    "date": {
+      "current": "Güncel",
+      "range": "{start} 'dan {end} 'a"
+    },
+    "export": "Dışa Aktar",
+    "help": "Yardım",
+    "import": "İçe Aktar",
+    "info": "Bilgi",
+    "name": "İsim",
+    "new": "Yeni",
+    "or": "veya",
+    "price": "Fiyat",
+    "royal": "Asil",
+    "sale": "Kampanya",
+    "wiki": "Wiki"
+  },
+  "contact": {
+    "description": "Sorularınız, hata bildirileriniz mı var ya da katkıda mı bulunmak istiyorsunuz? Burası tam doğru yer.",
+    "message": {
+      "discord": {
+        "button": "Sunucuya Katıl",
+        "description": "Sorular sorun, önerilerde bulunun, hataları bildirin ya da sadece toplulukla sohbet edin.",
+        "title": "Discord sunucusuna katılın!"
+      },
+      "discord_message": "Sorularınız, hata raporlarınız mı var ya da katkıda mı bulunmak istiyorsunuz? {server} 'ya katılın!",
+      "discord_server": "Discord Sunucusu",
+      "github": {
+        "button": "Depoyu Aç",
+        "description": "İçerik kodunu kontrol edin, sorunları açın ya da değişiklik talebinde bulunun",
+        "title": "Github'da görüntüle"
+      },
+      "help_wanted": {
+        "description": "Ben sadece İngilizce bilen tek bir kişiyim, bu yüzden yapamadığım pek çok şey var; bunların en başında da çeviriler geliyor. Şu ana kadar çevirebildiğim kısımlar, sadece oyunun içinden alabildiğim verilerdir. Eğer diliniz düzgün çevrilmemişse, LÜTFEN ya GitHub üzerinden bir 'değiştirme talebi' oluşturun ya da çeviriye yardımcı olmak için Discord sunucusuna katılın. Ayrıca sayfa düzeni tasarımı konusunda pek iyi değilim, bu sebeple eğer site tasarımında iyiyseniz yardımınızı almaktan mutluluk duyarım. Eğer sadece siteyi kodlamaya yardımcı olamk isterseniz buna da her zaman kapım açık.",
+        "title": "Yardım Aranıyor!"
+      },
+      "mlp_game_hangout": {
+        "button": "Sunucuya Katıl",
+        "description": "Oyun için topluluk sunucusu. r/MLPIOS subreddit'ine bağlıdır.",
+        "title": "MLP Oyun Alanı"
+      }
+    },
+    "title": "İletişim"
+  },
+  "dialog": {
+    "filter": "Filtrele",
+    "select_item": {
+      "title": "Öğe seçin"
+    },
+    "sort_by": "Sırala"
+  },
+  "filter": {
+    "collection": {
+      "completed": "Tamamlanan",
+      "incomplete": "Tamamlanmayan"
+    },
+    "common": {
+      "available": "Mevcut"
+    },
+    "costume": {
+      "used": "Kullanılan"
+    },
+    "decor": {
+      "can_fuse": "Kaynaştırılabilir",
+      "regular": "Normal"
+    },
+    "pony": {
+      "critters": "Yaratıklar",
+      "gem_pony": "Cevher Ponyleri",
+      "not_owned": "Sahip Olunmayan",
+      "npc": "Oynanamayan",
+      "playable": "Oynanabilir",
+      "pro": "Pro",
+      "quest": "Görev",
+      "unused": "Kullanılmayan"
+    },
+    "shop": {
+      "gem_shop": "Cevher Dükkanları",
+      "maze": "Labi̇rent",
+      "not_owned": "Sahip Olunmayan",
+      "others": "Diğer"
+    }
+  },
+  "fortune_shop": {
+    "messages": {
+      "regular": "Normal",
+      "royal": "Asil"
+    },
+    "price_rarities": {
+      "discount": "İndi̇ri̇m",
+      "regular": "Normal",
+      "super": "Süper",
+      "ultra": "Aşırı"
+    },
+    "rarities": {
+      "common": "Sıradan",
+      "legendary": "Efsanevi",
+      "rare": "Nadir",
+      "uncommon": "Sıra Dışı"
+    },
+    "title": "Talih Dükkanı"
+  },
+  "game": {
+    "content_version": "İçerik Versiyonu: {version}",
+    "game_version": "Oyun Versiyonu: {version}",
+    "message": {
+      "you_won": "Kazandın!"
+    }
+  },
+  "game_object": {
+    "building": {
+      "build_reward": "İnşa Ödülü",
+      "build_skip_cost": "İnşa Atlama Bedeli",
+      "build_time": "İnşa Süresi",
+      "skip_cost": "Atlama Bedeli"
+    },
+    "common": {
+      "size": "Boyut",
+      "unlock_level": "Açılma Seviyesi"
+    },
+    "costume": {
+      "collection": "Kostüm Seti",
+      "costume": "Kostüm | Kostümler"
+    },
+    "decor": {
+      "cannot_fuse": "Kaynaştırılamayan",
+      "decor": "Süsleme",
+      "effect": "Efekt",
+      "fusion_points": "Kaynaştırma Puanları",
+      "pro_decor": "Pro @:game_object.decor.decor",
+      "pro_decors": "Pro Süslemeler"
+    },
+    "house": {
+      "house": "Ev | Evler",
+      "resident": "Ev Sakini  | Ev Sakinleri",
+      "visitor": "Ziyaretçi | Ziyaretçiler"
+    },
+    "pet": {
+      "pet": "Evcil Hayvan | Pets"
+    },
+    "pony": {
+      "arrival_bonus": "Varış Bonusu",
+      "character": "Karakter",
+      "level_up_rewards": "Seviye Atlama Ödülleri",
+      "minigame_cooldown": "Mini Oyun Bekleme Süresi",
+      "minigame_skip_cost": "Mini Oyun Geçme Bedeli",
+      "pony": "Pony'ler",
+      "transform": "Dönüştür",
+      "transformable": "Dönüştürülebilir"
+    },
+    "profile_decorations": {
+      "avatar": {
+        "animated": "Animasyonlu?",
+        "avatar": "Avatar | Avatarlar"
+      },
+      "avatar_frame": {
+        "avatar_frame": "Çerçeve | Çerçeveler"
+      },
+      "background": {
+        "background": "Arka Plan | Arka Planlar"
+      },
+      "background_frame": {
+        "background_frame": "Arka Plan Çerçevesi"
+      },
+      "cutie_mark": {
+        "cutie_mark": "Güzellik İşareti | Cutie Marks"
+      },
+      "is_default": "Varsayılan"
+    },
+    "road": {
+      "road": "Yol | Yollar"
+    },
+    "shop": {
+      "gem_shop": "Cevher Dükkanları",
+      "product": "Ürün",
+      "production_time": "Üretim Süresi",
+      "profit": "kâr",
+      "shop": "Dükkan | Dükkanlar"
+    },
+    "token": {
+      "token": "Obje | Objeler"
+    }
+  },
+  "group_quests": {
+    "name_seasonal": "{name} (@:group_quests.seasonal)",
+    "name_tutorial": "{name} (@:group_quests.tutorial)",
+    "pro": "Pro",
+    "random_pro": "Rastgele",
+    "seasonal": "Sezonluk",
+    "title": "Grup Görevleri",
+    "tutorial": "Öğretici"
+  },
+  "guesser": {
+    "description": "Silüete göre Pony'i tahmin et ",
+    "message": {
+      "correct_guesses": "Doğru Tahminler",
+      "guessed_correctly": "Doğru Tahmin Edildi: {ponies}/{total}",
+      "time": "Süre: {time}"
+    },
+    "title": "Bu Pony Kim?"
+  },
+  "home": {
+    "description": "{game_link} hakkında bilgi al ve ilerlemeni takip et!",
+    "events": {
+      "current_event": "Güncel Etkinlik",
+      "ends_in": "{timestamp} içinde bitiyor",
+      "next_event": "Sıradaki Etkinlik",
+      "starts_in": "{timestamp} sonra başlıyor"
+    },
+    "message": {
+      "affiliates": "İştirakler",
+      "game_name": "My Little Pony: Büyülü Prenses",
+      "links": "Bağlantılar"
+    },
+    "things_to_do": {
+      "browse": "Göz At",
+      "title": "Yapılacak Şeyler"
+    }
+  },
+  "info_card": {
+    "error": "Hata",
+    "important": "Önemli",
+    "info": "Bilgi",
+    "note": "Not",
+    "tip": "İpucu",
+    "warning": "Uyarı"
+  },
+  "inventory": {
+    "message": {
+      "add_more": "Daha fazla {category} ekle",
+      "dialog": {
+        "export": {
+          "category": "Kategori",
+          "format": "Biçim"
+        }
+      }
+    },
+    "stats": {
+      "collections": "Koleksiyonlar: {count}",
+      "costumes": "Kostümler: {count}",
+      "gem_shops": "@:game_object.shop.gem_shop{':'} {count}",
+      "houses": "@:game_object.house.house{':'} {count}",
+      "ponies": "@:game_object.pony.pony{':'} {count}",
+      "shops": "@:game_object.shop.shop{':'} {count}",
+      "stars": "Yıldızlar: {count}",
+      "transformable": "@:game_object.pony.transformable{':'} {count}",
+      "wh_collections": "Gündemdeki koleksiyonlar: {count}"
+    },
+    "title": "Envanter"
+  },
+  "lists": {
+    "button": {
+      "add_to_list": "İstek listesine ekle",
+      "create_list": "İstek listesi yarat",
+      "edit": "Düzenle",
+      "new_wishlist": "+ Yeni istek listesi"
+    },
+    "dialog": {
+      "add_to_list": {
+        "title": "İstek Listesine Ekle"
+      },
+      "choose_image": {
+        "title": "Resim seç"
+      },
+      "confirm_delete": {
+        "body": "\"{list}\"'yi silmek istediğinden emin misin?",
+        "title": "İstek listesini sil?"
+      },
+      "create_list": {
+        "message": {
+          "name": "İsim:",
+          "name_required": "İsim gereklidir",
+          "wishlist": "İstek Listesi"
+        },
+        "title": "İstek Listesi Oluştur"
+      }
+    },
+    "messages": {
+      "empty_list": "Şu anda hiçbir şey yok. {ponies} eklemeyi düşün.",
+      "no_lists": "Henüz hiçbir istek listesi yok gibi görünüyor.",
+      "wishlist": "İstek Listesi"
+    },
+    "title": "İstek Listesi"
+  },
+  "location": {
+    "canterlot": "Canterlot",
+    "changeling_kingdom": "Changeling Kingdom",
+    "crystal_empire": "Crystal Empire",
+    "everfree_forest": "Everfree Forest",
+    "klugetown": "Klugetown",
+    "maze": "Labi̇rent Zi̇ndani",
+    "ponyville": "Ponyville",
+    "sweet_apple_acres": "Sweet Apple Acres",
+    "town": "Kasaba",
+    "unknown": "Bilinmeyen"
+  },
+  "maze": {
+    "dialog": {
+      "reset": {
+        "body": "İlerlemeni sıfırlamak istediğine emin misin?",
+        "title": "Sıfırla?"
+      }
+    },
+    "message": {
+      "boss": {
+        "required_energy": "Gereken Enerji: {energy}",
+        "required_power": "Gereken Güç: {power}",
+        "rewards": "Ödüller"
+      },
+      "coin_shop": {
+        "produces": "Üretir:",
+        "skip_cost": "Atla: {cost}",
+        "time": "Her {duration}"
+      },
+      "helpers": {
+        "no_helpers": "Hiç yardımcın yok. Onları arkadaş kodunla aktarabilirsin",
+        "title": "Yardımcılar"
+      },
+      "import_progress": "İlerlemeyi içe aktar:",
+      "legend": "Efsane",
+      "maze_energy": "Labirent Enerjisi",
+      "not_active": "Labirent aktif değil",
+      "update_note": {
+        "outdated": "Bu halen geçen senenin verisini kullanıyor bu yüzden bu sene için doğru olmayabilir.",
+        "updated": "Her şey güncellendi ve bu senenin verisini kullanılıyor!"
+      }
+    },
+    "pony_card": {
+      "fights": "Savaşlar",
+      "power": "Güç",
+      "upgraded": "Güncellendi"
+    },
+    "tile": {
+      "boss": "Patron",
+      "chest": "Sandık",
+      "coin_shop": "Sihirli Para Dükkanı",
+      "end": "Son",
+      "helper_shop": "Gizli Dükkan",
+      "locked": "Kilitli",
+      "miniboss": "Minotaurocellus",
+      "selected": "Seçili",
+      "start": "Başla/Başlangıç"
+    },
+    "tips": {
+      "buying_helpers": "Sadece en ucuz pony i al ve önceki dükkanlara geri dönme yoksa sikkelerin biter ve sıkışıp kalırsın!"
+    },
+    "title": {
+      "long": "Kayıp Kanatlar, Alengirli Olaylar",
+      "short": "Labirent"
+    }
+  },
+  "notices": {
+    "corrupt_save": {
+      "body": "Bulut kaydının bozulmasına sebep olan bir hata bulundu. Etkilenip etkilendmediğini kontrol etmek için burayı tıklayınız: \"@:{'notices.corrupt_save.button'}\"",
+      "button": "Daha fazlasını öğren",
+      "title": "Önemli"
+    },
+    "help_wanted": {
+      "body": "Sadece İngilizce konuşuyorum, bu yüzden All The Ponies sitesini kendi başıma diğer dillere çeviremiyorum. Eğer web sitesinde zaten var olan dilin tamamen veya yanlış çevrildiyse yardımından memnuniyet duyarım. Yazılım bilgisi gerektirmez çğnkü Weblate çevirileri herkes için kolaylaştırıyor.",
+      "title": "Yardım Aranıyor!"
+    },
+    "v5_arks": {
+      "body": "Maalesef ki All The Ponies en sonki güncellemeyi alamayacak çünkü Gameloft oyunun dosyalarının depolanma şeklini değiştirdi ve  bu dosyaları okumak için kullanılan araçların işlevini yitirmesine neden oldu. Ben ve diğer dataminer'lar yeni dosyaları nasıl çıkaracağımızı çözmek için çok sıkı çalışıyoruz fakat yakın zamanda bir şey beklemeyin.",
+      "title": "Önemli"
+    },
+    "v5_arks_cracked": {
+      "body": "Dataminer'lar yeni dosyaları okuyabilmeyi başardığı için All The Ponies'in {version}'a güncellendiğini söylemekten memnuniyet duyarım.Yardım edenlere ve süreçte sabırlı olan diğer herkese teşekkürlerimi sunarım.",
+      "title": "Güncelleme"
+    }
+  },
+  "player_card": {
+    "current_xp": "Mevcut XP: {max_value} üzerinden {current_value}",
+    "level": "Seviye: {level}",
+    "name": "İsim: {name}",
+    "player_stat": {
+      "collections": "{count} Koleksiyonlar",
+      "costumes": "{count} Kostümler",
+      "gem_shops": "{count} Cevher Dükkanları",
+      "ponies": "{count} Pony",
+      "shops": "{count} Dükkanlar",
+      "transformables": "{count} Dönüştürülebilirler",
+      "wh_collections": "{count} Neler Yeni Koleksiyonları"
+    }
+  },
+  "player_info": {
+    "friend_code": "Arkadaş Kodu",
+    "join_date": "Katılım Tarihi: {join_date}",
+    "total_playtime": "Toplam Oynama Süresi: {total_playtime}"
+  },
+  "pony_quiz": {
+    "description": "My Little Pony: Büyülü Prenses mobil oyunu hakkında bilginizi test edin ve kaç tane Pony'i adlandırabileceğinizi görün. Oyunu oynamasanız bile eğlenceli olabilir çünkü G4'deki çoğu Pony oyunda da var (bazı G1 Pony'leri de var).",
+    "message": {
+      "win_message": "Tebrikler! Hepsini adlandırmak {time} kadar sürdü {num_ponies} @.lower:game_object.pony.pony"
+    },
+    "options": {
+      "case_sensitive": "Büyük/küçük harfe duyarlı",
+      "ignore_accents": "Vurguları/Aksanları yoksay",
+      "ignore_punctuation": "Noktalama işaretlerini yoksay",
+      "ignore_spaces": "Boşlukları yoksay",
+      "include_unused": "Kullanılmayan ponyleri dahil et"
+    },
+    "time": "Süre",
+    "title": "Bilgi Yarışı"
+  },
+  "price_history": {
+    "header": {
+      "date": "Tarih",
+      "price": "Ücret",
+      "royal": "Asil",
+      "tokens": "Objeler"
+    },
+    "message": {
+      "whats_hot": "Öne Çikanlar"
+    },
+    "title": "Fiyat Geçmişi"
+  },
+  "save_check": {
+    "description": "Saklama kütüğün bozulmuş mu kontrol et",
+    "messages": {
+      "explanation": {
+        "first": "Oyunun bakımından sonra birçoğunuzun All The Ponies'de saklama kütüğünüzü görüntüleyemediğini fark etmiş olabilirsiniz; bu, \"internet bağlantısı yok\" uyarısı nedeniyle arkadaşlarınızı ziyaret edememe sorununa da neden olan aynı hatadır.",
+        "fourth": "Etkilenip etkilenmediğinizi buradan kontrol edebilirsiniz.",
+        "second": "Yapılan araştırmalar sonucunda, veri madencileri bu hatanın nereden kaynaklandığını buldular ve durum hiç de iç açıcı değil.",
+        "third": "Bu hata aslında bulut kaydınızın bozulmasından kaynaklanıyor. Bunun nasıl olduğunu bilmiyorum ama gerçekten korkutucu bir şey."
+      },
+      "status": {
+        "affected": "Maalesef etkilenmişsin gibi görünüyor",
+        "safe": "Görünüşe göre saklama kütüğün şimdilik güvende"
+      },
+      "what_can_you_do": {
+        "body": "Basitçe söylemek gerekirse, {support} ile iletişime geçin. Ancak bunu kendi sorumluluğunuzda yapmanız gerektiğini belirtmeliyiz. Bu konuda e-posta gönderirken bunun veri madenciliği yoluyla öğrenildiğini belirtirseniz, Gameloft'un ne düşüneceği veya hesabınıza ne gibi bir işlem yapabileceğini bilmiyoruz, çünkü bu bilgiyi bilmek onların kurallarına aykırı olabilir. Ayrıca, mümkün olduğunca çok kişinin destekle iletişime geçmesini sağlamak için bu durumu yayabilirsiniz; bu da umarım geliştiricileri bu sorunu düzeltmeye teşvik eder.",
+        "customer_support": "Müşteri Destek",
+        "title": "Ne yapabilirsin?"
+      },
+      "what_this_means": {
+        "body": {
+          "affected": "Yerel kayıt dosyanız sorunsuz çalışıyor fakat oyunu silerseniz veya aktarmanız gerekirse bulut kaydınız sorunlu.",
+          "safe": "Bulut kaydınız şu anda sorunsuz, ancak bunun her zaman sorunsuz olacağı anlamına gelmediğini lütfen unutmayın; çünkü daha önce sorunsuz olan birçok oyuncunun hesabı artık sorunsuz değil."
+        },
+        "title": "Bu ne demek?"
+      },
+      "what_to_say": {
+        "body": {
+          "affected": {
+            "1": "İnsanların sizi ziyaret edemediğini kısaca belirtebilir, çıkan hata mesajını ekleyebilir, hesabınızın kayıt dosyasında bir sorun olmasından endişele duyduğunuzu dile getirerek durumu teknik ekiplerine iletmelerini isteyebilirsiniz.",
+            "2": "Yalan söyleyip oyun kaydınızın sıfırlandığını söyleyebilirsiniz, böylece oyunun durumunu kontrol etmek zorunda kalacaklardır.",
+            "3": "Yalan söyleyip insanları ziyaret edemediğinizi ve cihaz değiştirmemiş olmanıza, internete bağlı oynamanıza rağmen yerel kaydınız ile bulut kaydınızın eşleşmediğini söyleyen beklenmedik uyarı pencereleri aldığınızı belirtebilirsiniz.",
+            "4": "Doğrudan kayıt dosyasının bozulduğunu belirtebilirsiniz, ama tekrar söylüyorum ; risk size ait."
+          },
+          "safe": {
+            "1": "Arkadaşlarınızı ziyarete gidemediğinizi söyleyin ve her zaman stabil bir internet bağlantısıyla giriş yaptığınızı belirtin.",
+            "2": "Siz kendiniz etkilenmemiş olsanız bile, doğrudan neler olup bittiğini belirtebilirsiniz."
+          }
+        },
+        "title": "Desteğe ne yazmalısınız?"
+      }
+    },
+    "title": "Kayıt dosyanızı kontrol edin"
+  },
+  "search": {
+    "message": {
+      "search": "Ara",
+      "showing_of_results": "{shown_results} sonuçtan {total_results} kadarı gösteriliyor",
+      "showing_results": "{total_results} sonuç gösteriliyor"
+    },
+    "no_results": "Sonuç yok",
+    "title": "Ara"
+  },
+  "sidebar": {
+    "activities": "Aktiviteler",
+    "browse": "Göz at",
+    "game_info": "Oyun bilgisi",
+    "player": "Oyuncu",
+    "profile_decorations": "Profil Dekorasyonları"
+  },
+  "site": {
+    "description": "My Little Pony Büyülü Prenses Oyunu hakkında öğrenmek istediğiniz herhangi bir şey hakkında tüm doğru bilgileri alın",
+    "language": "Dil",
+    "skip_to_content": "Ana içeriğe geç",
+    "title": "All The Ponies"
+  },
+  "socials": {
+    "discord": "Discord",
+    "donate": "Bağış",
+    "github": "GitHub",
+    "help_translate": "Çeviriye katkıda bulun",
+    "mlp_game_hangout": "MLP Game Hangout",
+    "wiki": "Wiki"
+  },
+  "sorting": {
+    "alphabetically": "Alfabetik Olarak",
+    "date_added": "Eklenme tarihine göre",
+    "decor": {
+      "pro_rate": "Pro Oranı"
+    },
+    "game_order": "Oyun Sırası",
+    "relevance": "Alaka düzeyine göre",
+    "reverse": "Geri Al",
+    "shop": {
+      "production": "Üretim Oranı",
+      "xp_rate": "Xp Oranı"
+    }
+  },
+  "stats": {
+    "description": "My Little Pony: Büyülü Prenses oyunundaki istatistiklerini gör",
+    "message": {
+      "ponies": {
+        "total": "Toplam Pony'ler: {count}"
+      }
+    },
+    "title": "İstatistikler"
+  },
+  "store": {
+    "description": "Güncel olarak mağazada olan her şeyi eş zamanlı olarak görün",
+    "message": {
+      "for": "için:",
+      "if": "eğer:",
+      "percent_off": "İNDİRİM",
+      "seasonal_shop": "Sezonluk Dükkan"
+    },
+    "title": "Mağaza"
+  },
+  "tasks": {
+    "message": {
+      "duration": "Süre",
+      "skip_price": "Atla: {price}",
+      "task_icon": "Görev simgesi"
+    },
+    "task": "Görev | Görevler"
+  }
+}

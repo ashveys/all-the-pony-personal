@@ -1,0 +1,158 @@
+<script setup lang="ts">
+import { useGameCardSize } from '@/composables/useGameCardSize.ts';
+import { useRem } from '@/composables/useRem';
+import { CATEGORIES, FilterFunctions, SortFunctions } from '@/scripts/categories';
+import { useGameObjects, getNames } from '@/scripts/gameData';
+import type { CategoryName, GameObject, GameObjectId } from '@/types/gameDataTypes';
+import { computed, ref, useTemplateRef } from 'vue';
+import DialogComponent from '../DialogComponent.vue';
+import ObjectCard from '../ObjectCard.vue';
+import SearchComponent from '../SearchComponent.vue';
+
+const gameObjects = useGameObjects()
+
+const props = defineProps<{
+
+}>()
+
+const emit = defineEmits<{
+    open: [],
+    close: [],
+    submit: [gameObject: GameObjectId],
+    cancel: [],
+}>()
+
+const selectDialog = useTemplateRef('select-dialog')
+
+function open() {
+    selectDialog.value.open()
+}
+
+function close() {
+    selectDialog.value.close()
+}
+
+function submit(gameObject: GameObjectId) {
+    emit('submit', gameObject)
+    selectDialog.value.submit()
+}
+
+function cancel() {
+    selectDialog.value.cancel()
+}
+
+defineExpose({
+    open,
+    close,
+    submit,
+    cancel,
+})
+
+
+function selectObject(objectId: GameObjectId) {
+    submit(objectId)
+}
+
+
+const selectedCategory = ref<CategoryName>('pony')
+const objects = computed(() => gameObjects.value ? Object.values(gameObjects.value[selectedCategory.value].objects) as GameObject[] : [])
+
+
+const availableCategories = computed(() => gameObjects.value ? Object.keys(gameObjects.value) : [])
+
+
+const sortFunctions = computed(() => {
+    let functions = {
+        ...SortFunctions.common
+    }
+
+    if (selectedCategory.value in SortFunctions) {
+        functions = {
+            ...functions,
+            ...SortFunctions[selectedCategory.value],
+        }
+    }
+
+    return functions
+})
+
+const filterFunctions = computed(() => {
+    let functions = {
+        ...FilterFunctions.common
+    }
+
+    if (selectedCategory.value in FilterFunctions) {
+        functions = {
+            ...functions,
+            ...FilterFunctions[selectedCategory.value]
+        }
+    }
+
+    return functions
+})
+
+const cardSize = 9
+const { width: itemWidth, height: itemHeight } = useGameCardSize(cardSize)
+const itemGap = useRem(.3)
+
+
+</script>
+
+<template>
+    <DialogComponent
+        ref="select-dialog"
+        :title="$t('dialog.select_item.title')"
+        has-close-button
+        @open="$emit('open')"
+        @close="$emit('close')"
+        @cancel="$emit('cancel')"
+    >
+        <!-- @vue-generic {GameObject} -->
+        <SearchComponent
+            class="search-section"
+            :data="objects"
+            :get-search-text="getNames"
+            :get-exact-search-text="(item) => item.id"
+            :sorters="sortFunctions"
+            :filters="filterFunctions"
+            :placeholder="$t(CATEGORIES[selectedCategory].string)"
+            :item-width="itemWidth"
+            :item-height="itemHeight"
+            :item-gap="itemGap"
+        >
+
+            <template #menu-before>
+                <select v-model="selectedCategory" class="dropdown" name="category">
+                    <option
+                        v-for="category in availableCategories.filter(category => category in CATEGORIES)"
+                        :value="category"
+                        :key="`category-${category}`"
+                    >{{ $t(CATEGORIES[category].string, 2) }}</option>
+                </select>
+            </template>
+
+            <template #item="{ item }">
+                <ObjectCard
+                    class="item-card"
+                    :object="item"
+                    hover
+                    @click="selectObject(item.id)"
+                >
+
+                </ObjectCard>
+            </template>
+        </SearchComponent>
+    </DialogComponent>
+</template>
+
+<style lang="css" scoped>
+.search-section {
+    --background-color: white;
+    width: min(100dvw, 50rem);
+    max-width: 100%;
+}
+
+.item-card {
+    --card-size: 9rem;
+}
+</style>

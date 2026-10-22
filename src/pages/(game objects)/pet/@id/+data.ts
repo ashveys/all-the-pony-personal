@@ -1,0 +1,30 @@
+import api from "@/scripts/api"
+import type { PriceHistoryType } from "@/scripts/api.types"
+import { getObject } from "@/scripts/gameData"
+import type { PetType } from "@/types/gameDataTypes"
+import { render } from "vike/abort"
+import type { PageContext } from "vike/types"
+
+export interface Data {
+    pet: PetType,
+    priceHistory: PriceHistoryType | null,
+}
+
+export async function data(pageContext: PageContext): Promise<Data> {
+    const { id } = pageContext.routeParams
+    
+    const pet = getObject(id, 'pet')
+
+    if (pet === null) {
+        throw render(404, `Avatar frame with id ${id} doesn't exist`)
+    }
+
+    let priceHistory: PriceHistoryType = null
+    try {
+        priceHistory = await api.getPriceHistory(id)
+    } catch {
+        priceHistory = null
+    }
+
+    return { pet, priceHistory }
+}

@@ -1,0 +1,583 @@
+{
+  "about": {
+    "description": {
+      "body": "Tous les Poneys a initialement été créé par {me} comme un site pour {quiz_link}, parce que un quiz que j'ai trouvé en ligne s'attaquait à peine à la surface des poneys qui existent. Il s'est étendu plus tard comme une source d'informations fiables par rapport au jeu, pour suivre sa collection, et bien sûr, pour jouer à des petites activités.",
+      "quiz_link": "Nomme le plus de poneys possible"
+    },
+    "sections": {
+      "credits": {
+        "check_failed": "Erreur: Impossible de récupérer les traducteurs",
+        "message": {
+          "credits_list": {
+            "1": "Le site web est développé par {ego}.",
+            "2": "Merci à {bass} pour avoir aidé avec le chargement des poneys avec un code d'ami.",
+            "3": "La police utilisée est {font}, qui est aussi utilisée dans le jeu.",
+            "4": "Le site web a été développé avec {vue} pour me rendre la vie plus simple et pour permettre une expérience plus dynamique."
+          }
+        },
+        "title": "Crédits"
+      },
+      "translations": {
+        "title": "Traductions"
+      }
+    },
+    "title": "À Propos"
+  },
+  "button": {
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "done": "Complet",
+    "edit": "Modifier",
+    "hint": "Indice",
+    "no": "Non",
+    "ok": "Ok",
+    "resume": "Reprendre",
+    "share": "Partager",
+    "skip": "Passer",
+    "start": "Commencer",
+    "stop": "Arrêt",
+    "yes": "Oui"
+  },
+  "check_save": {
+    "messages": {
+      "check": "Vérifier"
+    }
+  },
+  "collection": {
+    "collection": "Collection / Collections",
+    "message": {
+      "alt_reward": "Récompense alternative",
+      "progress": "Progression :",
+      "reward": "Récompense"
+    }
+  },
+  "common": {
+    "date": {
+      "current": "actuel",
+      "range": "{start} à la {end}"
+    },
+    "export": "Exporter",
+    "help": "Aide",
+    "import": "Importer",
+    "info": "Infos",
+    "name": "Nom",
+    "new": "Nouveau",
+    "or": "ou",
+    "price": "Prix",
+    "royal": "Royal",
+    "sale": "Promotion",
+    "wiki": "Wiki"
+  },
+  "contact": {
+    "description": "Vous avez des questions, suggestions, bugs à signaler, ou vous souhaitez contribuer ? C'est le bon endroit pour ça !",
+    "message": {
+      "discord": {
+        "button": "Rejoins le Serveur",
+        "description": "Pose des questions, fais des suggestions, signale des bugs, ou simplement discute avec la communauté.",
+        "title": "Rejoins le serveur Discord"
+      },
+      "discord_message": "Des questions, suggestions, ou bugs à signaler? Rejoignez le {server}!",
+      "discord_server": "serveur discord",
+      "github": {
+        "button": "Dépôt Ouvert",
+        "description": "Consultez le code source, les problèmes en suspens, ou faites une proposition d'extraction de données.",
+        "title": "Voir sur GitHub"
+      },
+      "help_wanted": {
+        "description": "Je suis juste une personne qui ne connais que l'anglais, alors il y beaucoup de choses que je ne peux pas faire, surtout les traductions. Les choses que j'ai pu traduire viennent des traductions du jeu. Si ta langue n'est pas bien traduite, S'IL TE PLAIT crée une demande de pull sur github, ou rejoins le serveur discord pour aider à traduire. Je ne suis aussi pas très bon pour designer des interfaces, alors si tu es bon pour créer des sites webs, j'adorerais avoir ton aide. Si tu veux seulement aider à coder le site, ce serait aussi bienvenu.",
+        "title": "Besoin d'aide !"
+      },
+      "mlp_game_hangout": {
+        "button": "Rejoins le Serveur",
+        "description": "Serveur communautaire pour le jeu. Lié au subreddit r/MLPIOS.",
+        "title": "Espace de discussion autour du jeu MLP"
+      }
+    },
+    "title": "Contact"
+  },
+  "dialog": {
+    "filter": "Filtrer",
+    "select_item": {
+      "title": "Sélectionner un item"
+    },
+    "sort_by": "Trier par"
+  },
+  "filter": {
+    "collection": {
+      "completed": "Complété",
+      "incomplete": "Incomplet"
+    },
+    "common": {
+      "available": "Disponible"
+    },
+    "costume": {
+      "used": "utilise"
+    },
+    "decor": {
+      "can_fuse": "Peut être fusionné",
+      "regular": "Normal"
+    },
+    "pony": {
+      "gem_pony": "Poneys à gemmes",
+      "not_owned": "Non possédé",
+      "npc": "PNJ",
+      "playable": "Jouable",
+      "pro": "Pro",
+      "quest": "Quête",
+      "unused": "Non utilisé"
+    },
+    "shop": {
+      "gem_shop": "Boutiques De Gemmes",
+      "maze": "Labyrinthe",
+      "not_owned": "Non possédé",
+      "others": "Autres"
+    }
+  },
+  "fortune_shop": {
+    "messages": {
+      "regular": "Normal",
+      "royal": "Royal"
+    },
+    "price_rarities": {
+      "discount": "Rabais",
+      "regular": "Normal",
+      "super": "Super",
+      "ultra": "Ultra"
+    },
+    "rarities": {
+      "common": "Commun",
+      "legendary": "Légendaire",
+      "rare": "Rare",
+      "uncommon": "Atypique"
+    },
+    "title": "Boutique De La Chance"
+  },
+  "game": {
+    "content_version": "Version du contenu:{version}",
+    "game_version": "Version du jeu: {version}",
+    "message": {
+      "you_won": "Tu As Gagné !"
+    }
+  },
+  "game_object": {
+    "building": {
+      "build_reward": "Récompense de construction",
+      "build_skip_cost": "Coût pour passer la construction",
+      "build_time": "Temps de construction",
+      "skip_cost": "Coût pour passer"
+    },
+    "common": {
+      "size": "Taille",
+      "unlock_level": "Niveau pour débloquer"
+    },
+    "costume": {
+      "collection": "Ensemble de costume",
+      "costume": "déguisements"
+    },
+    "decor": {
+      "cannot_fuse": "Ne peut pas être fusionné",
+      "decor": "Décorations",
+      "effect": "Effet",
+      "fusion_points": "Points De Fusion",
+      "pro_decor": "Pro @:game_object.decor.decor",
+      "pro_decors": "Décorations Pro"
+    },
+    "house": {
+      "house": "Maison | Maisons",
+      "resident": "Résident | Résidents",
+      "visitor": "Visiteur | Visiteurs"
+    },
+    "pet": {
+      "pet": "Familier | Pets"
+    },
+    "pony": {
+      "arrival_bonus": "Bonus d'arrivée",
+      "character": "Personnages",
+      "level_up_rewards": "Récompenses de montée en niveau",
+      "minigame_cooldown": "Cooldown de Mini-jeu",
+      "minigame_skip_cost": "Coût du passage du mini-jeu",
+      "pony": "Poneys",
+      "transform": "Transformer",
+      "transformable": "Transformable"
+    },
+    "profile_decorations": {
+      "avatar": {
+        "animated": "Animé ?",
+        "avatar": "Avatar | Avatars"
+      },
+      "avatar_frame": {
+        "avatar_frame": "Cadre | Cadres"
+      },
+      "background": {
+        "background": "Fond | Fonds"
+      },
+      "background_frame": {
+        "background_frame": "Cadre de fond"
+      },
+      "cutie_mark": {
+        "cutie_mark": "Marque De Beauté | Marques De Beauté"
+      },
+      "is_default": "Est par défaut"
+    },
+    "road": {
+      "road": "Routes"
+    },
+    "shop": {
+      "gem_shop": "Boutiques De Gemmes",
+      "product": "Produit",
+      "production_time": "Temps de production",
+      "profit": "Bénéfice",
+      "shop": "Magasins"
+    },
+    "token": {
+      "token": "Jetons"
+    }
+  },
+  "group_quests": {
+    "name_seasonal": "{name} (@:group_quests.seasonal)",
+    "name_tutorial": "{name} (@:group_quests.tutorial)",
+    "pro": "Pro",
+    "random_pro": "Aléatoire",
+    "seasonal": "Saisonnier",
+    "title": "Quêtes De Groupe",
+    "tutorial": "Tutoriel"
+  },
+  "guesser": {
+    "description": "Devine le poney à partir de sa silhouette",
+    "message": {
+      "correct_guesses": "Bonnes réponses",
+      "guessed_correctly": "Bonnes réponses: {ponies}/{total}",
+      "time": "Temps: {time}"
+    },
+    "title": "Quel est ce Poney ?"
+  },
+  "home": {
+    "description": "Obtenez des informations à propos de {game_link} et suivez ce que vous avez!",
+    "events": {
+      "current_event": "Événement du moment",
+      "ends_in": "Se termine dans {timestamp}",
+      "next_event": "Prochain événement",
+      "starts_in": "Débute dans {timestamp}"
+    },
+    "message": {
+      "affiliates": "Affiliés",
+      "game_name": "My Little Pony : Magic Princess",
+      "links": "Liens"
+    },
+    "things_to_do": {
+      "browse": "Parcourir",
+      "title": "Choses à faire"
+    }
+  },
+  "info_card": {
+    "error": "Erreur",
+    "important": "Important",
+    "info": "Information",
+    "note": "Note",
+    "tip": "Astuce",
+    "warning": "Avertissement"
+  },
+  "inventory": {
+    "message": {
+      "add_more": "Ajoute un peu de {category}",
+      "dialog": {
+        "export": {
+          "category": "Catégorie :",
+          "format": "Format :"
+        }
+      }
+    },
+    "stats": {
+      "collections": "Collections : {count}",
+      "costumes": "Costumes : {count}",
+      "gem_shops": "@:game_object.shop.gem_shop{':'} {count}",
+      "houses": "@:game_object.house.house{':'} {count}",
+      "ponies": "@:game_object.pony.pony{':'} {count}",
+      "shops": "@:game_object.shop.shop{':'} {count}",
+      "stars": "Étoiles: {count}",
+      "transformable": "@:game_object.pony.transformable{':'} {count}",
+      "wh_collections": "Collections tendances : {count}"
+    },
+    "title": "Inventaire"
+  },
+  "lists": {
+    "button": {
+      "add_to_list": "Ajouter à la liste de souhaits",
+      "create_list": "Créer une liste de souhaits",
+      "edit": "Modifier",
+      "new_wishlist": "+ Nouvelle liste de souhaits"
+    },
+    "dialog": {
+      "add_to_list": {
+        "title": "Ajouter à la liste de souhaits"
+      },
+      "choose_image": {
+        "title": "Choisir une image"
+      },
+      "confirm_delete": {
+        "body": "Êtes vous sûr de vouloir supprimer \"{list}\"?",
+        "title": "Supprimer la liste de souhaits?"
+      },
+      "create_list": {
+        "message": {
+          "name": "Nom:",
+          "name_required": "Un nom est requis",
+          "wishlist": "Liste de souhaits"
+        },
+        "title": "Créer une liste de souhaits"
+      }
+    },
+    "messages": {
+      "empty_list": "Il n'y a rien ici. Pense à ajouter des {ponies}.",
+      "no_lists": "On dirait qu'il y a pas encore de liste de souhaits.",
+      "wishlist": "Liste de souhaits"
+    },
+    "title": "Listes de souhaits"
+  },
+  "location": {
+    "canterlot": "Canterlot",
+    "changeling_kingdom": "Royaume des Changelins",
+    "crystal_empire": "Empire de Cristal",
+    "everfree_forest": "Forêt Everfree",
+    "klugetown": "Klugetown",
+    "maze": "Donjon Labyrinthe",
+    "ponyville": "Poneyville",
+    "sweet_apple_acres": "Sweet Apple Acres",
+    "town": "Ville",
+    "unknown": "Inconnu"
+  },
+  "maze": {
+    "dialog": {
+      "reset": {
+        "body": "Êtes-vous sûr de vouloir remettre à zéro votre progrès ?",
+        "title": "Remettre à zéro ?"
+      }
+    },
+    "message": {
+      "boss": {
+        "required_energy": "Énergie requise : {energy}",
+        "required_power": "Pouvoir requis : {power}",
+        "rewards": "Récompenses"
+      },
+      "coin_shop": {
+        "produces": "Produit :",
+        "skip_cost": "Passer : {cost}",
+        "time": "Tout les {duration}"
+      },
+      "helpers": {
+        "no_helpers": "Vous n'avez pas d'aidants. Vous pouvez les importer avec votre code d'ami",
+        "title": "Aidants"
+      },
+      "import_progress": "Importe ton progrès :",
+      "legend": "Légende",
+      "maze_energy": "Énergie du labyrinthe",
+      "not_active": "Labyrinthe non actif",
+      "update_note": {
+        "outdated": "En ce moment, ceci utilise la data de l'année dernière, il se peut donc que des éléments ne soient pas à jour.",
+        "updated": "Tout à désormais été mis-à-jour, et utilise la data de cette année !"
+      }
+    },
+    "pony_card": {
+      "fights": "Combats",
+      "power": "Pouvoir",
+      "upgraded": "Amélioré"
+    },
+    "tile": {
+      "boss": "Chef",
+      "chest": "Coffre",
+      "coin_shop": "Boutique de pièces magiques",
+      "end": "Fin",
+      "helper_shop": "Boutique secrète",
+      "locked": "Fermé à clé",
+      "miniboss": "Minotaurocellus",
+      "selected": "Sélectionné",
+      "start": "Début"
+    },
+    "tips": {
+      "buying_helpers": "N'achetez que le poney le moins cher, et ne retournez pas aux boutiques précédentes, autrement vous vous retrouverez à court de pièces et serez bloqué !"
+    },
+    "title": {
+      "long": "Ailes perdues et labyrinthe",
+      "short": "Labyrinthe"
+    }
+  },
+  "notices": {
+    "corrupt_save": {
+      "body": "Un bug récemment trouvé peut causer la corruption de votre sauvegarde dans le cloud. Vous pouvez vérifier si vous êtes concerné en cliquant \"@:{'notices.corrupt_save.button'}\"",
+      "button": "En savoir plus",
+      "title": "Important"
+    },
+    "help_wanted": {
+      "body": "Je ne parle qu'anglais, alors je ne peux pas traduire Tous les Poneys en d'autres langues. Si ta langue est déjà sur le site mais n'est pas complètement ou bien traduite, j'aimerais beaucoup avoir ton aide. Aucune connaissance de code n'est requise parce que Weblate rend la traduction facile pour tous.",
+      "title": "Besoin d'aide!"
+    },
+    "v5_arks": {
+      "body": "Malheureusement, tout les Poneys n'auront pas la dernière mise à jour, Gameloft ayant changé la façon de stocker les fichiers du jeu, détruisant les outils étant utilisés pour les lire. Moi et d'autres dataminers travaillons assidument pour comprendre comment extraire les nouveaux fichiers, mais ne vous attendez pas à un résultat rapidement.",
+      "title": "Important"
+    },
+    "v5_arks_cracked": {
+      "body": "Je me réjouis d'annoncer que tout les Poneys ont été mis-à-jour sur la version {version} parceque les dataminers ont compris comment lire les nouveaux fichiers ! Merci à tous ceux qui ont apporté leur aide, et merci à tout le monde pour avoir été aussi patients.",
+      "title": "Mise-à-jour"
+    }
+  },
+  "player_card": {
+    "current_xp": "XP actuelle : {current_value} sur {max_value}",
+    "level": "Niveau : {level}",
+    "name": "Nom : {name}",
+    "player_stat": {
+      "collections": "{count} Collections",
+      "costumes": "{count} Costumes",
+      "gem_shops": "{count} Boutiques à gemmes",
+      "ponies": "{count} Poneys",
+      "shops": "{count} Boutiques",
+      "transformables": "{count} Transformables",
+      "wh_collections": "{count} Collections tendances"
+    }
+  },
+  "player_info": {
+    "friend_code": "Code D'Ami",
+    "join_date": "Date d'inscription:{join_date}",
+    "total_playtime": "Temps de jeu total: {total_playtime}"
+  },
+  "pony_quiz": {
+    "description": "Teste tes connaissances sur le jeu mobile My Little Pony : Magic Princess, and vois le nombre de poneys que tu peux nommer. Ça peut-être amusant même si tu ne joues pas au jeu, car la majorité des poneys de la G4 sont dans le jeu (il y a aussi quelques poneys de la G1).",
+    "message": {
+      "win_message": "Félicitations! Tu as mis {time} pour nommer {num_ponies} @.lower:game_object.pony.pony"
+    },
+    "options": {
+      "case_sensitive": "Sensible aux majuscules et minuscules",
+      "ignore_accents": "Ignorer les accents",
+      "ignore_punctuation": "Ignorer la ponctuation",
+      "ignore_spaces": "Ignorer les espaces",
+      "include_unused": "Inclure les poneys non utilisés"
+    },
+    "time": "Temps",
+    "title": "Quiz"
+  },
+  "price_history": {
+    "header": {
+      "date": "Date",
+      "price": "Prix",
+      "royal": "Royal",
+      "tokens": "Jetons"
+    },
+    "message": {
+      "whats_hot": "En Vedette"
+    },
+    "title": "Historique du prix"
+  },
+  "save_check": {
+    "description": "Vérifie si ton fichier de sauvegarde a été corrompu",
+    "messages": {
+      "explanation": {
+        "first": "Vous avez peut-être remarqué qu'après la maintenance du jeu, beaucoup d'entre vous n'ont pas pu voir vos sauvegardes sur Tous les Poneys, il s'agit de la même erreur qui cause l'impossibilité de visiter un ami à cause de \"pas de connexion internet\".",
+        "fourth": "Tu peux vérifier si tu es concerné ici.",
+        "second": "Après quelques recherches, les dataminers ont trouvé l'origine de l'erreur, et c'est pas joli.",
+        "third": "Cette erreur résulte de votre sauvegarde sur le cloud qui est corrompue. Je ne suis pas sûr de comment cela arrive, mais ça fait vraiment peur."
+      },
+      "status": {
+        "affected": "Malheureusement, il semble que tu sois concerné",
+        "safe": "On dirait que ton fichier de sauvegarde est sûr pour l'instant"
+      },
+      "what_can_you_do": {
+        "body": "Pour faire simple, contacte {support}. Nous tenons à préciser que tu le fais à tes propres risques. Si tu les contacte à propos de ça et que tu mentionnes que ça a été découvert par le data mining, nous ne savons pas comment Gameloft va réagir, ou ce qu'ils feront à ton compte, sachant que connaître ces informations pourraient aller à l'encontre de leurs règles. Tu peux aussi fairer passer le mot pour que le plus de personnes possible contactent le support, ce qui devrait alerter les développeurs pour corriger cette erreur.",
+        "customer_support": "Service client",
+        "title": "Que peux-tu faire ?"
+      },
+      "what_this_means": {
+        "body": {
+          "affected": "Ton fichier de sauvegarde local va bien, mais si tu désinstalles le jeu, ou si tu as besoin de le transférer, ta sauvegarde cloud ne le sera pas.",
+          "safe": "Ta sauvegarde cloud fonctionne correctement, mais prends en considération que ça ne veut pas dire qu'elle fonctionnera toujours, le compte de plusieurs joueurs qui fonctionnait ne fonctionne plus maintenant."
+        },
+        "title": "Qu'est-ce que cela veut dire ?"
+      },
+      "what_to_say": {
+        "body": {
+          "affected": {
+            "1": "Tu peux simplement mentionner que les gens ne peuvent pas te rendre visite, ajouter le message qu'on te donne, et suggérer que tu es inquiet.te à propos d'un problème avec le fichier de sauvegarde de ton compte et que tu aimerais qu'ils transfèrent le message à leur équipe technique.",
+            "2": "Tu pourrais mentir et dire que ta sauvegarde a été réinitialisée, ce qui les ferait vérifier le statut.",
+            "3": "Tu pourrais mentir et dire que tu ne peux pas rendre visite aux gens, et que tu as des pop ups inattendus qui disent que ta sauvegarde locale et cloud ne correspondent pas, alors que tu n'as pas changé d'appareil et que tu joues connecté.e à internet.",
+            "4": "Tu peux directement mentionner que ton fichier de sauvegarde est corrompu, mais encore une fois fais ça à tes propres risques."
+          },
+          "safe": {
+            "1": "Tu peux dire que tu ne peux pas visiter les villes des autres joueurs, et mentionner que tu as une connexion internet stable.",
+            "2": "Tu peux mentionner directement ce qu'il se passe, même si tu n'es pas concerné.e."
+          }
+        },
+        "title": "Que dire au support ?"
+      }
+    },
+    "title": "Vérifie ton fichier de sauvegarde"
+  },
+  "search": {
+    "message": {
+      "search": "Recherche",
+      "showing_of_results": "Montre {shown_results} des {total_results} résultats",
+      "showing_results": "Montre {total_results} résultats"
+    },
+    "no_results": "Pas de résultat",
+    "title": "Recherche"
+  },
+  "sidebar": {
+    "activities": "Activités",
+    "browse": "Feuilleter",
+    "game_info": "Informations sur le jeux",
+    "player": "Joueur",
+    "profile_decorations": "Décorations de profil"
+  },
+  "site": {
+    "description": "Obtiens toutes les informations précises que tu veux à propos de n'importe quoi sur le jeu My Little Pony : Magic Princess",
+    "language": "Langue",
+    "skip_to_content": "Passer jusqu'au contenu",
+    "title": "Tous les Poneys"
+  },
+  "socials": {
+    "discord": "Discord",
+    "donate": "Fais un don",
+    "github": "GitHub",
+    "help_translate": "Aide à traduire",
+    "mlp_game_hangout": "Espace de discussion à propos du jeu MLP",
+    "wiki": "Wiki"
+  },
+  "sorting": {
+    "alphabetically": "Alphabétiquement",
+    "date_added": "Date d'ajout",
+    "decor": {
+      "pro_rate": "Taux de pro"
+    },
+    "game_order": "Ordre de jeu",
+    "relevance": "Pertinence",
+    "reverse": "Inverse",
+    "shop": {
+      "production": "Taux de production",
+      "xp_rate": "Taux d'XP"
+    }
+  },
+  "stats": {
+    "description": "Vois tes statistiques dans le jeu My Little Pony : Magic Princess",
+    "message": {
+      "ponies": {
+        "total": "Total des poneys: {count}"
+      }
+    },
+    "title": "Statistiques"
+  },
+  "store": {
+    "description": "Vois tout ce qu'il y a dans le magasin en temps réel",
+    "message": {
+      "for": "avec",
+      "if": "si",
+      "percent_off": "EN -",
+      "seasonal_shop": "Boutique Saisonnière"
+    },
+    "title": "Boutique"
+  },
+  "tasks": {
+    "message": {
+      "duration": "Durée",
+      "skip_price": "Passer : {price}",
+      "task_icon": "Icône de la quête"
+    },
+    "task": "Quête / Quêtes"
+  }
+}

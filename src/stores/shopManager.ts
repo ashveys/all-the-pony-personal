@@ -1,0 +1,164 @@
+import api from "@/scripts/api"
+import type { ShopEntry } from "@/scripts/api.types"
+import { notNullIsh } from "@/scripts/common"
+import { getObject } from "@/scripts/gameData"
+import type { GameObject, GameObjectId } from "@/types/gameDataTypes"
+import { HTTPError } from "ky"
+
+enum ShopStatus {
+    unloaded,
+    pending,
+    loaded,
+    error,
+}
+
+export interface PriceData {
+    id: GameObjectId,
+    inShop: boolean,
+    hidden: boolean,
+    tags: string[],
+    token: GameObjectId | null,
+    price: {
+        base: {
+            currency: GameObjectId | null,
+            price: number | number,
+            tokens: number | null,
+        },
+        sale: {
+            currency: GameObjectId | null,
+            price: number | number,
+            tokens: number | null,
+        },
+        royal: {
+            currency: GameObjectId | null,
+            price: number | number,
+            tokens: number | null,
+        }
+    }
+}
+
+
+function chooseExisting<T extends any[]>(
+    ...a: T
+): T[number] | null {
+    const result = a.find(notNullIsh)
+    if (notNullIsh(result)) {
+        return result
+    } else {
+        return null
+    }
+}
+
+
+class ShopStore {
+    _shop: Record<string, ShopEntry> | null = null
+    _status: ShopStatus = ShopStatus.unloaded
+    _pending_result: Promise<Record<string, ShopEntry> | null> | null = null
+    
+    get isReady() {
+        return this._status === ShopStatus.loaded
+    }
+
+    async getShop (): Promise<Record<string, ShopEntry>> {
+        if (import.meta.env.SSR) {
+            return this._shop
+        }
+        
+        if (this._status === ShopStatus.loaded) {
+            return this._shop
+        }
+
+        if (this._status === ShopStatus.pending) {
+            await this._pending_result
+            return this._shop
+        }
+
+        this._status = ShopStatus.pending
+
+        this._pending_result = new Promise(async (resolve, reject) => {
+            let shop: ShopEntry[]
+            try {
+                shop = await api.getShop()
+            } catch (error: unknown) {
+                if (error instanceof HTTPError) {
+                    reject(await error.response.text())
+                } else {
+                    reject(error)
+                }
+            }
+
+            let shopData = {}
+            this._shop = {}
+            for (let item of shop) {
+                shopData[item.id] = item
+            }
+            this._shop = shopData
+            this._status = ShopStatus.loaded
+            resolve(this._shop)
+        })
+
+        return await this._pending_result
+    }
+
+    get shop() {
+        return this.getShop()
+    }
+
+    async getShopInfo(id: GameObjectId | GameObject) {
+        const gameObject = getObject(id)
+        let token = null
+        let entry: ShopEntry | null = null
+        let basePrice = {
+            currency: '',
+            amount: 0,
+        }
+        if (!gameObject) {
+            return
+        }
+        if (gameObject.id in await this.shop) {
+            entry = (await this.shop)[gameObject.id]
+            if (entry?.in_shop) {
+                if (entry?.tags.includes('pvsar1')) {
+                    token = 'Token_Event_Rare'
+                } else if (entry?.tags.includes('pvsar2')) {
+                    token = 'Token_Event_Common'
+                }
+            }
+        }
+
+        if (gameObject.category !== 'costume_part') {
+            token = gameObject.price?.token || token
+            basePrice.currency = gameObject.price?.base.currency
+            basePrice.amount = gameObject.price?.base.amount
+        }
+
+        const result: PriceData = {
+            id: gameObject.id,
+            inShop: entry?.in_shop || false,
+            hidden: entry?.hidden || false,
+            tags: entry?.tags || [],
+            token: token || null,
+            price: {
+                base: {
+                    currency: chooseExisting(entry?.price?.base?.currency, basePrice.currency),
+                    price: chooseExisting(entry?.price?.base?.price, basePrice.amount),
+                    tokens: chooseExisting(entry?.price?.base?.tokens),
+                },
+                sale: {
+                    currency: chooseExisting(entry?.price?.sale?.currency, basePrice.currency),
+                    price: chooseExisting(entry?.price?.sale?.price),
+                    tokens: chooseExisting(entry?.price?.sale?.tokens),
+                },
+                royal: {
+                    currency: chooseExisting(entry?.price?.royal?.currency, basePrice.currency),
+                    price: chooseExisting(entry?.price?.royal?.price),
+                    tokens: chooseExisting(entry?.price?.royal?.tokens),
+                },
+            },
+        }
+
+        return result
+    }
+}
+
+export const shopStore = new ShopStore()

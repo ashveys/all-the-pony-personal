@@ -1,0 +1,584 @@
+{
+  "about": {
+    "description": {
+      "body": "\"All The Ponies\" fue creado inicialmente por {me} como una página web para el cuestionario {quiz_link}, porque los cuestionarios que encontré en línea apenas rozaban la superficie de todos los ponis. Posteriormente se expandió como un recurso de información precisa sobre el juego, para mantenerte al tanto de lo que tienes y, por supuesto, pequeñas actividades que puedes jugar.",
+      "quiz_link": "Nombra todos los ponis que puedas"
+    },
+    "sections": {
+      "credits": {
+        "check_failed": "Error: No se pudieron obtener los traductores",
+        "message": {
+          "credits_list": {
+            "1": "La página web está construida por {ego}.",
+            "2": "Gracias a {bass} por ayudar a descargar ponis con el codigo de amigo.",
+            "3": "La fuente usada es {font}, que también es la utilizada en el juego.",
+            "4": "La página web se construyó usando {vue} para hacer mi vida más fácil y permitir una experiencia más dinámica."
+          }
+        },
+        "title": "Créditos"
+      },
+      "translations": {
+        "title": "Traducciones"
+      }
+    },
+    "title": "Acerca De"
+  },
+  "button": {
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "done": "Listo",
+    "edit": "Editar",
+    "hint": "Pista",
+    "no": "No",
+    "ok": "Ok",
+    "resume": "Reanudar",
+    "share": "Compartir",
+    "skip": "Salta",
+    "start": "Empezar",
+    "stop": "Parar",
+    "yes": "Sí"
+  },
+  "check_save": {
+    "messages": {
+      "check": "Revisar"
+    }
+  },
+  "collection": {
+    "collection": "Colección | Colecciones",
+    "message": {
+      "alt_reward": "Recompensa Alternativa",
+      "progress": "PROGRESO:",
+      "reward": "Recompensa"
+    }
+  },
+  "common": {
+    "date": {
+      "current": "actual",
+      "range": "{start} hasta {end}"
+    },
+    "export": "Exportar",
+    "help": "Ayuda",
+    "import": "Importar",
+    "info": "Info",
+    "name": "Nombre",
+    "new": "Nuevo",
+    "or": "o",
+    "price": "Precio",
+    "royal": "Real",
+    "sale": "Venta",
+    "wiki": "Wiki"
+  },
+  "contact": {
+    "description": "¿Tienes preguntas, sugerencias, reporte de errores o quieres contribuir? ¡Este es el lugar para eso!",
+    "message": {
+      "discord": {
+        "button": "Unete al Servidor",
+        "description": "Haz preguntas, da sugerencias, reporta errores o solo conversa con la comunidad.",
+        "title": "Unete al servidor de Discord"
+      },
+      "discord_message": "¿Alguna pregunta, sugerencia o reporte de errores? ¡Únete a {server}!",
+      "discord_server": "Servidor de Discord",
+      "github": {
+        "button": "Abrir Repositorio",
+        "description": "Consulta el código fuente, reportes de fallos o haz una solicitud de extracción.",
+        "title": "Ver en GitHub"
+      },
+      "help_wanted": {
+        "description": "Solo soy una persona y solo sé inglés, así que hay muchas cosas que no puedo hacer, sobre todo traducciones. Las cosas que he logrado traducir las he sacado del juego. Si tu idioma no está traducido, POR FAVOR crea una solicitud en github o unete al servidor de discord para que puedas ayudar a traducir. Tampoco soy muy bueno diseñando plantillas, así que si eres bueno diseñando sitios web, me encantaría contar con tu ayuda. Si solo quieres ayudar con el código del sitio web, eso también es muy bienvenido.",
+        "title": "¡Se necesita ayuda!"
+      },
+      "mlp_game_hangout": {
+        "button": "Unete al Servidor",
+        "description": "Servidor comunitario del juego. Conectado al subreddit de r/MLPIOS.",
+        "title": "Reunión de juegos MLP"
+      }
+    },
+    "title": "Contacto"
+  },
+  "dialog": {
+    "filter": "Filtro",
+    "select_item": {
+      "title": "Seleccionar ítem"
+    },
+    "sort_by": "Ordenar por"
+  },
+  "filter": {
+    "collection": {
+      "completed": "Completada",
+      "incomplete": "Incompleta"
+    },
+    "common": {
+      "available": "Disponible"
+    },
+    "costume": {
+      "used": "Usados"
+    },
+    "decor": {
+      "can_fuse": "Puede fusionarse",
+      "regular": "Normal"
+    },
+    "pony": {
+      "critters": "Criaturas",
+      "gem_pony": "Ponis de Gemas",
+      "not_owned": "No adquirido",
+      "npc": "NPC",
+      "playable": "Jugable",
+      "pro": "Pro",
+      "quest": "Misiones",
+      "unused": "Sin usar"
+    },
+    "shop": {
+      "gem_shop": "Tiendas de Gemas",
+      "maze": "Laberinto",
+      "not_owned": "No Adquirido",
+      "others": "Otros"
+    }
+  },
+  "fortune_shop": {
+    "messages": {
+      "regular": "Normal",
+      "royal": "Real"
+    },
+    "price_rarities": {
+      "discount": "Descuento",
+      "regular": "Regular",
+      "super": "Súper",
+      "ultra": "Ultra"
+    },
+    "rarities": {
+      "common": "Común",
+      "legendary": "Legendario",
+      "rare": "Raro",
+      "uncommon": "Poco Común"
+    },
+    "title": "Tienda De Fortuna"
+  },
+  "game": {
+    "content_version": "Versión del contenido: {version}",
+    "game_version": "Versión del Juego: {version}",
+    "message": {
+      "you_won": "¡Has Ganado!"
+    }
+  },
+  "game_object": {
+    "building": {
+      "build_reward": "Recompensa por construir",
+      "build_skip_cost": "Costo de omitir la construcción",
+      "build_time": "Tiempo de Construcción",
+      "skip_cost": "Costo de omitir espera"
+    },
+    "common": {
+      "size": "Tamaño",
+      "unlock_level": "Nivel en que se desbloquea"
+    },
+    "costume": {
+      "collection": "Conjunto de trajes",
+      "costume": "Traje | Trajes"
+    },
+    "decor": {
+      "cannot_fuse": "No puede fusionarse",
+      "decor": "Decoración",
+      "effect": "Efecto",
+      "fusion_points": "Puntos De Fusión",
+      "pro_decor": "Pro @:game_object.decor.decor",
+      "pro_decors": "Decoraciones Profesionales"
+    },
+    "house": {
+      "house": "Casa | Casas",
+      "resident": "Residente | Residentes",
+      "visitor": "Visitante | Visitantes"
+    },
+    "pet": {
+      "pet": "Mascota | Mascotas"
+    },
+    "pony": {
+      "arrival_bonus": "Bonus de llegada",
+      "character": "Personaje | Personajes",
+      "level_up_rewards": "Recompenzas al subir de nivel",
+      "minigame_cooldown": "Cooldown del Minijuego",
+      "minigame_skip_cost": "Costo de omitir espera de Minijuegos",
+      "pony": "Ponis",
+      "transform": "Transformar",
+      "transformable": "Transformable"
+    },
+    "profile_decorations": {
+      "avatar": {
+        "animated": "¿Animado?",
+        "avatar": "Avatar | Avatares"
+      },
+      "avatar_frame": {
+        "avatar_frame": "Marco | Marcos"
+      },
+      "background": {
+        "background": "Fondo | Fondos"
+      },
+      "background_frame": {
+        "background_frame": "Marco de fondo"
+      },
+      "cutie_mark": {
+        "cutie_mark": "Marca de belleza | Marcas de belleza"
+      },
+      "is_default": "Es predeterminado"
+    },
+    "road": {
+      "road": "Camino | Caminos"
+    },
+    "shop": {
+      "gem_shop": "Tiendas De Gemas",
+      "product": "Producto",
+      "production_time": "Tiempo de Producción",
+      "profit": "Ganancia",
+      "shop": "Negocio | Negocios"
+    },
+    "token": {
+      "token": "Fichas"
+    }
+  },
+  "group_quests": {
+    "name_seasonal": "{name} (@:group_quests.seasonal)",
+    "name_tutorial": "{name} (@:group_quests.tutorial)",
+    "pro": "Pro",
+    "random_pro": "Aleatorio",
+    "seasonal": "Temporada",
+    "title": "Misiones De Grupo",
+    "tutorial": "Tutorial"
+  },
+  "guesser": {
+    "description": "Adivina el poni por su silueta",
+    "message": {
+      "correct_guesses": "Aciertos",
+      "guessed_correctly": "Aciertos: {ponies}/{total}",
+      "time": "Tiempo: {time}"
+    },
+    "title": "¿Quién es ese poni?"
+  },
+  "home": {
+    "description": "¡Obten información sobre {game_link} y mantente al tanto de lo que tienes!",
+    "events": {
+      "current_event": "Evento Actual",
+      "ends_in": "Termina en {timestamp}",
+      "next_event": "Siguiente Evento",
+      "starts_in": "Inicia en {timestamp}"
+    },
+    "message": {
+      "affiliates": "Afiliados",
+      "game_name": "My Little Pony: Magia",
+      "links": "Enlaces"
+    },
+    "things_to_do": {
+      "browse": "Navegar",
+      "title": "Cosas por Hacer"
+    }
+  },
+  "info_card": {
+    "error": "Error",
+    "important": "Importante",
+    "info": "Información",
+    "note": "Nota",
+    "tip": "Consejo",
+    "warning": "Advertencia"
+  },
+  "inventory": {
+    "message": {
+      "add_more": "Añade alguna {category}",
+      "dialog": {
+        "export": {
+          "category": "Categoria:",
+          "format": "Formato:"
+        }
+      }
+    },
+    "stats": {
+      "collections": "Colecciones: {count}",
+      "costumes": "Trajes: {count}",
+      "gem_shops": "@:game_object.shop.gem_shop{':'} {count}",
+      "houses": "@:game_object.house.house{':'} {count}",
+      "ponies": "@:game_object.pony.pony{':'} {count}",
+      "shops": "@:game_object.shop.shop{':'} {count}",
+      "stars": "Estrellas: {count}",
+      "transformable": "@:game_object.pony.transformable{':'} {count}",
+      "wh_collections": "Colecciones Novedosas: {count}"
+    },
+    "title": "Inventario"
+  },
+  "lists": {
+    "button": {
+      "add_to_list": "Añadir a la lista de deseos",
+      "create_list": "Crear lista de deseos",
+      "edit": "Editar",
+      "new_wishlist": "+ Nueva lista de deseos"
+    },
+    "dialog": {
+      "add_to_list": {
+        "title": "Añadir a la Lista de Deseos"
+      },
+      "choose_image": {
+        "title": "Seleccionar imagen"
+      },
+      "confirm_delete": {
+        "body": "¿Seguro de eliminar \"{list}\"?",
+        "title": "¿Eliminar lista de deseos?"
+      },
+      "create_list": {
+        "message": {
+          "name": "Nombre:",
+          "name_required": "Se requiere un nombre",
+          "wishlist": "Lista de Deseos"
+        },
+        "title": "Crear Lista de Deseos"
+      }
+    },
+    "messages": {
+      "empty_list": "No hay nada aquí por el momento. Considera añadir {ponies}.",
+      "no_lists": "Parece que no tienes ninguna lista de deseos aún.",
+      "wishlist": "Lista de Deseos"
+    },
+    "title": "Listas de Deseos"
+  },
+  "location": {
+    "canterlot": "Canterlot",
+    "changeling_kingdom": "Reino Cambiante",
+    "crystal_empire": "Imperio de Cristal",
+    "everfree_forest": "Bosque Everfree",
+    "klugetown": "Klugetown",
+    "maze": "Mazmorra Laberinto",
+    "ponyville": "Ponyville",
+    "sweet_apple_acres": "Acres de Manzanas Dulces",
+    "town": "Ciudad",
+    "unknown": "Desconocido"
+  },
+  "maze": {
+    "dialog": {
+      "reset": {
+        "body": "¿Estás seguro de que quieres resetear tu progreso?",
+        "title": "¿Resetear?"
+      }
+    },
+    "message": {
+      "boss": {
+        "required_energy": "Energía Requerida: {energy}",
+        "required_power": "Poder Requerido: {power}",
+        "rewards": "Recompensas"
+      },
+      "coin_shop": {
+        "produces": "Produce:",
+        "skip_cost": "Saltar: {cost}",
+        "time": "Cada {duration}"
+      },
+      "helpers": {
+        "no_helpers": "No tienes ayudantes. Puedes importarlos con tu código de amigo",
+        "title": "Ayudantes"
+      },
+      "import_progress": "Importar progreso:",
+      "legend": "Leyenda",
+      "maze_energy": "Energía del laberinto",
+      "not_active": "Laberinto no activo",
+      "update_note": {
+        "outdated": "Actualmente esto utiliza información del año pasado, muchas cosas pueden no ser precisas este año.",
+        "updated": "Todo se encuentra actualizado, y está usando la información de este año!"
+      }
+    },
+    "pony_card": {
+      "fights": "Peleas",
+      "power": "Poder",
+      "upgraded": "Mejorar"
+    },
+    "tile": {
+      "boss": "Jefe",
+      "chest": "Cofre",
+      "coin_shop": "Tienda de Monedas Mágicas",
+      "end": "Final",
+      "helper_shop": "Tienda Secreta",
+      "locked": "Bloqueado",
+      "miniboss": "Minotaurocellus",
+      "selected": "Seleccionado",
+      "start": "Inicio"
+    },
+    "tips": {
+      "buying_helpers": "Compra solo el poni más barato y no vuelvas a las tiendas anteriores, de lo contrario te quedarás sin monedas y no podrás seguir avanzando!"
+    },
+    "title": {
+      "long": "Alas perdidas y cosas de laberintos",
+      "short": "Laberinto"
+    }
+  },
+  "notices": {
+    "corrupt_save": {
+      "body": "Se ha encontrado un error que puede causar corrupción en el guardado en la nube. Puedes chequear si te esta afectando haciendo click en \"@:{'notices.corrupt_save.button'}\"",
+      "button": "Más información",
+      "title": "Importante"
+    },
+    "help_wanted": {
+      "body": "Yo solo hablo inglés, así que no puedo traducir Todos los Ponis a otros idiomas. Si tu idioma ya se encuentra en la página pero no está completamente traducido, me encantaría tu ayuda. No se necesita conocimiento en programación porque Weblate hace que traducir sea fácil para todos.",
+      "title": "¡Se necesita ayuda!"
+    },
+    "v5_arks": {
+      "body": "Desafortunadamente, Todos los Ponis no recibirá la última actualización debido a que Gameloft cambió cómo se almacenan los archivos, esto rompió las herramientas que usamos para leerlos. Yo y otros data miners estamos trabajando en encontrar cómo extraer los nuevos archivos, pero no esperes que eso pase pronto.",
+      "title": "Importante"
+    },
+    "v5_arks_cracked": {
+      "body": "Me complace decir que Todos los ponis ha sido actualizado a la versión {version} debido a que los data miners hemos encontrado cómo leer los nuevos archivos! Gracias a todos los que ayudaron, gracias a todos los demás por su paciencia.",
+      "title": "Actualización"
+    }
+  },
+  "player_card": {
+    "current_xp": "XP actual: {current_value} de {max_value}",
+    "level": "Nivel: {level}",
+    "name": "Nombre: {name}",
+    "player_stat": {
+      "collections": "{count} Colecciones",
+      "costumes": "{count} Trajes",
+      "gem_shops": "{count} Tiendas de Gemas",
+      "ponies": "{count} Ponis",
+      "shops": "{count} Negocios",
+      "transformables": "{count} Transformables",
+      "wh_collections": "{count} Colecciones Novedosas"
+    }
+  },
+  "player_info": {
+    "friend_code": "Código De Amigo",
+    "join_date": "Fecha en que se unio: {join_date}",
+    "total_playtime": "Tiempo total de juego: {total_playtime}"
+  },
+  "pony_quiz": {
+    "description": "Pon a prueba tus conocimientos sobre el juego My Little Pony: Magia, y ve cuantos ponis puedes nombrar. Puede ser divertido incluso si no juegas el juego ya que muchos ponis de la generación 4 están en el juego (incluso algunos de la generación 1).",
+    "message": {
+      "win_message": "¡Felicitaciones! Te tomo {time} para nombrar todos los {num_ponies} @.lower:game_object.pony.pony"
+    },
+    "options": {
+      "case_sensitive": "Sensitividad a Mayúsculas y minúsculas",
+      "ignore_accents": "Ignorar acentos",
+      "ignore_punctuation": "Ignorar signos de puntuación",
+      "ignore_spaces": "Ignorar espacios",
+      "include_unused": "Incluir ponis no utilizados"
+    },
+    "time": "Tiempo",
+    "title": "Cuestionario"
+  },
+  "price_history": {
+    "header": {
+      "date": "Fecha",
+      "price": "Precio",
+      "royal": "Real",
+      "tokens": "Fichas"
+    },
+    "message": {
+      "whats_hot": "Novedades"
+    },
+    "title": "Historial de Precios"
+  },
+  "save_check": {
+    "description": "Revisa si tu partida guardada se ha corrompido",
+    "messages": {
+      "explanation": {
+        "first": "Es posible que hayan notado que, después del ultimo mantenimiento del juego, muchos de ustedes no han podido ver sus partidas guardadas en Todos los Ponis, lo cual es el mismo error que está causando el problema de no poder visitar a los amigos debido a \"no tener conexión a internet\".",
+        "fourth": "Puedes revisar si te esta afectando aquí.",
+        "second": "Después de algo de investigación Data Miners han encontrado de donde viene el error, y no es bonito.",
+        "third": "El error es en realidad el resultado de la corrupción de tu partida guardada en la nube. No estoy seguro de cómo es que pasa, pero es algo realmente aterrador."
+      },
+      "status": {
+        "affected": "Desafortunadamente, parece que tu partida guardada puede estar siendo afectada",
+        "safe": "Parece que tu partida guaradad esta segura por el momento"
+      },
+      "what_can_you_do": {
+        "body": "Es simple, contacta con {support}. Debemos advertirles que lo hagan bajo su propio riesgo. Si envían un correo electrónico sobre esto y mencionan que lo descubrieron mediante data mining, desconocemos cómo reaccionará Gameloft o qué medidas podrían tomar en contra de tu cuenta, ya que conocer esta información podría infringir sus normas. También pueden compartir esta información para que la mayor cantidad de personas posible se comuniquen con soporte técnico, lo que con suerte alertará a los desarrolladores para que solucionen este problema.",
+        "customer_support": "Soporte al cliente",
+        "title": "¿Qué puedes hacer?"
+      },
+      "what_this_means": {
+        "body": {
+          "affected": "Tu partida guardada localmente está bien, pero si desinstalas el juego o si necesitas transferir el juego, el guardado en la nube no lo está.",
+          "safe": "Tu partida guardada en la nube se encuentra bien en este momento, pero ten en cuenta que esto no significa que siempre se encontrara de esta manera, ya que muchas cuentas de jugadores que antes funcionaban correctamente, ahora no lo hacen."
+        },
+        "title": "¿Qué significa esto?"
+      },
+      "what_to_say": {
+        "body": {
+          "affected": {
+            "1": "Podrías simplemente mencionar que hay personas que no pueden visitarte, añade el mensaje que te da el juego, sugiere que estas preocupado de que sea un problema con la partida guardada de tu cuenta y que te gustaría que llevaran el problema con el equipo técnico.",
+            "2": "Podrías mentir y decir que tu partida guardada se reinicio, lo que podría hacerlos revisar el estatus de la misma.",
+            "3": "Podrías mentir y decir que ni puedes visitar a otras personas y aparecen anuncios inesperados que dicen que tu partida guardada localmente y en la nube no coinciden, incluso si no has cambiado de dispositivo y estás jugando mientras estás conectado a internet.",
+            "4": "Podrías directamente mencionar que tu partida guardada está corrompida, pero haz eso bajo tu propio riesgo."
+          },
+          "safe": {
+            "1": "Puedes hablarles como no puedes visitar las ciudades de otros jugadores, mencionando que tienes una estable conexión a internet.",
+            "2": "Podrías solo mencionar lo que está pasando, incluso si no te afecta."
+          }
+        },
+        "title": "¿Qué decirle a soporte?"
+      }
+    },
+    "title": "Revisa tu partida guardada"
+  },
+  "search": {
+    "message": {
+      "search": "Buscar",
+      "showing_of_results": "Mostrando {shown_results} de {total_results} resultados",
+      "showing_results": "Mostrando {total_results} resultados"
+    },
+    "no_results": "Sin resultados",
+    "title": "Buscar"
+  },
+  "sidebar": {
+    "activities": "Actividades",
+    "browse": "Navegar",
+    "game_info": "Información del Juego",
+    "player": "Jugador",
+    "profile_decorations": "Decoraciones de perfil"
+  },
+  "site": {
+    "description": "Obten toda la información precisa que desees sobre cualquier tema del juego My Little Pony: Magia",
+    "language": "Idioma",
+    "skip_to_content": "Saltar al contenido",
+    "title": "Todos los Ponis"
+  },
+  "socials": {
+    "discord": "Discord",
+    "donate": "Donaciones",
+    "github": "GitHub",
+    "help_translate": "Ayuda con la traducción",
+    "mlp_game_hangout": "Reunión de juegos MLP",
+    "wiki": "Wiki"
+  },
+  "sorting": {
+    "alphabetically": "Alfabéticamente",
+    "date_added": "Fecha de adicción",
+    "decor": {
+      "pro_rate": "Efecto Pro"
+    },
+    "game_order": "Orden del Juego",
+    "relevance": "Relevancia",
+    "reverse": "Inverso",
+    "shop": {
+      "production": "Tasa de Producción",
+      "xp_rate": "Tasa de Experiencia"
+    }
+  },
+  "stats": {
+    "description": "Revisa tus estadísticas en el juego My Little Pony: Magia",
+    "message": {
+      "ponies": {
+        "total": "Ponies totales: {count}"
+      }
+    },
+    "title": "Estadísticas"
+  },
+  "store": {
+    "description": "Vea todo lo que hay actualmente en la tienda en tiempo real",
+    "message": {
+      "for": "con",
+      "if": "si",
+      "percent_off": "MENOS",
+      "seasonal_shop": "Tienda De Temporada"
+    },
+    "title": "Tienda"
+  },
+  "tasks": {
+    "message": {
+      "duration": "Duración",
+      "skip_price": "Omitir: {price}",
+      "task_icon": "Icono de tarea"
+    },
+    "task": "Tarea | Tareas"
+  }
+}
