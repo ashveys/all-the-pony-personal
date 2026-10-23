@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useSaveStore } from '@/stores/saveManager'
+import { usePersonalTracker } from '@/stores/personalTracker'
 import type { PonyType } from '@/types/gameDataTypes'
 import { translateName, getCollection } from '@/scripts/gameData'
 import { getPersonalF2P, getPersonalUseful } from '@/scripts/personalData'
@@ -11,11 +12,13 @@ import { modifyUrl } from 'vike/modifyUrl'
 const props = defineProps<{ pony: PonyType }>()
 
 const saveStore = useSaveStore()
+const tracker = usePersonalTracker()
 
 const name = computed(() => translateName(props.pony).value || '')
-const f2p = computed(() => getPersonalF2P(props.pony))
-const useful = computed(() => getPersonalUseful(props.pony))
+const f2p = computed(() => getPersonalF2P(name.value))
+const useful = computed(() => getPersonalUseful(name.value))
 const received = computed(() => saveStore.hasPony(props.pony.id))
+const wanted = computed(() => Boolean(tracker.wanted[props.pony.id]))
 
 const collectionLink = computed(() => {
     const ids = Array.isArray(props.pony.collections)
@@ -35,6 +38,9 @@ function toggleReceived() {
     else saveStore.addPony(props.pony.id)
 }
 
+function toggleWanted() {
+    tracker.setWanted(props.pony.id, !wanted.value)
+}
 </script>
 
 <template>
@@ -66,6 +72,15 @@ function toggleReceived() {
                 @click="toggleReceived"
             >
                 {{ received ? 'Получена' : 'Не получена' }}
+            </button>
+            <button
+                type="button"
+                class="pony-action"
+                :class="{ active: wanted }"
+                :aria-pressed="wanted"
+                @click="toggleWanted"
+            >
+                {{ wanted ? 'В списке желаемого' : 'Хочу получить' }}
             </button>
         </div>
     </article>
@@ -120,7 +135,6 @@ function toggleReceived() {
 }
 
 .pony-card__badges {
-    min-width: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 0.3rem;
@@ -129,7 +143,6 @@ function toggleReceived() {
 }
 
 .pony-badge {
-    min-width: 0;
     display: inline-flex;
     align-items: center;
     min-height: 1.35rem;
@@ -150,7 +163,7 @@ function toggleReceived() {
 
 .pony-card__actions {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 0.4rem;
     padding: 0 0.8rem 0.8rem;
 }
@@ -188,6 +201,11 @@ function toggleReceived() {
     background: #edf8f1;
 }
 
+.pony-action.active:last-child {
+    color: #785d8e;
+    border-color: #d7c9e6;
+    background: #f5effa;
+}
 
 @media (max-width: 520px) {
     .pony-card__actions {

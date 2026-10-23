@@ -195,7 +195,7 @@ const hasRequiredHouse = computed(() => {
     align-self: center;
     justify-self: center;
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     padding: 0.3rem;
 
     color: white;
@@ -250,7 +250,7 @@ a.title:hover {
 }
 
 .pony-names {
-    font-size: 1rem;
+    font-size: 1.2rem;
     justify-self: center;
 }
 

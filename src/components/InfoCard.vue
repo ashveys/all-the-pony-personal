@@ -75,11 +75,11 @@ const cardType = computed(() => props.type)
 }
 
 .card-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .card-body {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 </style>

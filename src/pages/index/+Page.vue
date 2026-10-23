@@ -1,6 +1,13 @@
 <script setup lang="ts">
+import DiscordButton from '@/components/buttons/socials/DiscordButton.vue';
+import GitHubButton from '@/components/buttons/socials/GitHubButton.vue';
+import KofiButton from '@/components/buttons/socials/KofiButton.vue';
+import RedditButton from '@/components/buttons/socials/RedditButton.vue';
+import WeblateButton from '@/components/buttons/socials/WeblateButton.vue';
+import WikiButton from '@/components/buttons/socials/WikiButton.vue';
 import GameCard from '@/components/GameCard.vue';
 import Link from '@/components/Link.vue';
+import links from '@/globals/links';
 import { createAssetUrl } from '@/scripts/assets.ts';
 import { pickRandom } from '@/scripts/common';
 import { useGameObjects, translateName, getMazeData } from '@/scripts/gameData';
@@ -90,8 +97,8 @@ const eventUrl = computed(() => {
         innerHTML: JSON.stringify({
           '@context' : 'https://schema.org',
           '@type' : 'WebSite',
-          name : 'MLP CHECK',
-          alternateName: 'MLP CHECK',
+          name : 'All The Ponies',
+          alternateName: 'ATP',
           url : BASE_URL,
         }),
       })
@@ -176,6 +183,23 @@ const eventUrl = computed(() => {
                 </div>
             </div>
         </section>
+        <section class="section">
+            <h2>{{ $t('home.message.links') }}</h2>
+            <div>
+                <DiscordButton :href="links.discordServer">{{ $t('socials.discord') }}</DiscordButton>
+                <GitHubButton :href="links.githubRepo">{{ $t('socials.github') }}</GitHubButton>
+                <KofiButton :href="links.kofi">{{ $t('socials.donate') }}</KofiButton>
+                <WeblateButton :href="links.weblate">{{ $t('socials.help_translate') }}</WeblateButton>
+            </div>
+        </section>
+        <section class="section">
+            <h2>{{ $t('home.message.affiliates') }}</h2>
+            <div>
+                <DiscordButton :href="links.mlpGameHangoutServer">{{ $t('socials.mlp_game_hangout') }}</DiscordButton>
+                <WikiButton :href="links.wiki">{{ $t('socials.wiki') }}</WikiButton>
+                <RedditButton :href="links.reddit">r/MLPIOS</RedditButton>
+            </div>
+        </section>
     </div>
 </template>
 
@@ -201,7 +225,7 @@ const eventUrl = computed(() => {
 }
 
 .lts-event-name {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .lts-event-image {

@@ -36,7 +36,7 @@ function toggleSidebar(e: Event) {
     <header class="site-header">
         <aside class="header">
             <div class="title-bar">
-                <div class="brand-mark" aria-hidden="true">☑️</div>
+                <div class="brand-mark" aria-hidden="true">ATP</div>
                 <label for="sidebar-toggle" class="sidebar-toggle">
                     <input @change="toggleSidebar" type="checkbox" name="sidebar-toggle" id="sidebar-toggle">
                     <label for="sidebar-toggle" aria-label="Toggle sidebar" title="Toggle sidebar"></label>
@@ -85,6 +85,7 @@ function toggleSidebar(e: Event) {
                         <div class="sidebar-section-title">Игрок</div>
                         <SidebarLink href="/stats/">{{ $t('stats.title') }}</SidebarLink>
                         <SidebarLink href="/inventory/">{{ $t('inventory.title') }}</SidebarLink>
+                        <SidebarLink href="/lists/">{{ $t('lists.title') }}</SidebarLink>
 
         
                         <template #footer>

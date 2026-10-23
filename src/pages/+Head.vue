@@ -9,21 +9,21 @@ import '@/assets/css/base.css';
     <meta name="theme-color" content="#ff6b9b">
     <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 
-    <link rel="shortcut icon" href="/favicon/mlp-check.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="/favicon/favicon.svg" type="image/svg+xml">
 
-    <link rel="icon" type="image/svg+xml" href="/favicon/mlp-check.svg">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/mlp-check-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/mlp-check-16.png">
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16.png">
     <!-- <link rel="shortcut icon" href="/favicon/favicon.ico"> -->
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="MLP CHECK">
-    <link rel="apple-touch-icon" href="/favicon/mlp-check-180.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="/favicon/mlp-check-180.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/mlp-check-180.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/mlp-check-180.png">
+    <meta name="apple-mobile-web-app-title" content="Ponies">
+    <link rel="apple-touch-icon" href="/apple-touch-icons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/apple-touch-icons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icons/apple-touch-icon-120x120.png">
 
     <!-- iOS Splash Screens (40) -->
     <link rel="apple-touch-startup-image" media="screen and (device-width: 440px) and (device-height: 956px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" href="/splash/apple-splash-1320x2868.png">

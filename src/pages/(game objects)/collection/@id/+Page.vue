@@ -214,7 +214,7 @@ const showAlt = computed(() => ['pony', 'shop'].includes(mainReward.value.item.c
 
 .progress-title {
     color: var(--blue);
-    font-size: 1.15rem;
+    font-size: 1.4rem;
     -webkit-text-stroke: 0.3rem white;
     paint-order: stroke fill;
     margin-block: 0.4rem;

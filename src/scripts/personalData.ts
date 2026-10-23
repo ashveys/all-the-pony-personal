@@ -1,6 +1,5 @@
 import f2pData from '@/data/personal/f2p.json'
 import usefulData from '@/data/personal/useful.json'
-import type { GameObject } from '@/types/gameDataTypes'
 
 export interface PersonalF2PEntry {
     name: string
@@ -16,10 +15,6 @@ export function normalizePersonalName(value: string): string {
     return value
         .replaceAll('ё', 'е')
         .replaceAll('Ё', 'Е')
-        .replaceAll('’', "'")
-        .replaceAll('‘', "'")
-        .replaceAll('–', '-')
-        .replaceAll('—', '-')
         .trim()
         .replace(/\s+/g, ' ')
         .toLowerCase()
@@ -28,26 +23,14 @@ export function normalizePersonalName(value: string): string {
 const f2p = (f2pData as { ponies: Record<string, PersonalF2PEntry> }).ponies
 const useful = (usefulData as { ponies: Record<string, PersonalUsefulEntry> }).ponies
 
-function englishName(value: GameObject): string {
-    return value?.name?.english ?? ''
+export function getPersonalF2P(name: string): PersonalF2PEntry | null {
+    return f2p[normalizePersonalName(name)] ?? null
 }
 
-export function getPersonalF2P(value: GameObject | string): PersonalF2PEntry | null {
-    const key = normalizePersonalName(typeof value === 'string' ? value : englishName(value))
-    return f2p[key] ?? null
-}
-
-export function getPersonalUseful(value: GameObject | string): PersonalUsefulEntry | null {
-    const names = typeof value === 'string'
-        ? [value]
-        : Object.values(value?.name ?? {})
-    for (const name of names) {
-        const entry = useful[normalizePersonalName(name)]
-        if (entry) {
-            return { ...entry, roles: Array.from(new Set(entry.roles.map(canonicalUsefulRole))) }
-        }
-    }
-    return null
+export function getPersonalUseful(name: string): PersonalUsefulEntry | null {
+    const entry = useful[normalizePersonalName(name)]
+    if (!entry) return null
+    return { ...entry, roles: entry.roles.map(canonicalUsefulRole) }
 }
 
 export function canonicalUsefulRole(role: string): string {
@@ -55,15 +38,15 @@ export function canonicalUsefulRole(role: string): string {
     if (normalized === 'жетоносборщики для отеля' || normalized === 'жетоносборщик для отеля') {
         return 'Жетоносборщики для отеля'
     }
-    return role.trim()
+    return role
 }
 
-export function hasPersonalF2P(value: GameObject | string): boolean {
-    return Boolean(getPersonalF2P(value))
+export function hasPersonalF2P(name: string): boolean {
+    return Boolean(getPersonalF2P(name))
 }
 
-export function hasPersonalUseful(value: GameObject | string): boolean {
-    return Boolean(getPersonalUseful(value))
+export function hasPersonalUseful(name: string): boolean {
+    return Boolean(getPersonalUseful(name))
 }
 
 export function getPersonalUsefulCategories(): string[] {

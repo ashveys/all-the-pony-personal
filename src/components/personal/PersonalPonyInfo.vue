@@ -1,20 +1,26 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useSaveStore } from '@/stores/saveManager'
+import { usePersonalTracker } from '@/stores/personalTracker'
 import type { PonyType } from '@/types/gameDataTypes'
 import { translateName } from '@/scripts/gameData'
 import { getPersonalF2P, getPersonalUseful } from '@/scripts/personalData'
 
 const props = defineProps<{ pony: PonyType }>()
 const saveStore = useSaveStore()
+const personal = usePersonalTracker()
 const name = computed(() => translateName(props.pony).value || '')
-const f2p = computed(() => getPersonalF2P(props.pony))
-const useful = computed(() => getPersonalUseful(props.pony))
+const f2p = computed(() => getPersonalF2P(name.value))
+const useful = computed(() => getPersonalUseful(name.value))
 const received = computed(() => saveStore.hasPony(props.pony.id))
+const wanted = computed(() => Boolean(personal.wanted[props.pony.id]))
 
 function toggleReceived() {
     if (received.value) saveStore.removePony(props.pony.id)
     else saveStore.addPony(props.pony.id)
+}
+function toggleWanted() {
+    personal.setWanted(props.pony.id, !wanted.value)
 }
 </script>
 
@@ -28,6 +34,9 @@ function toggleReceived() {
             <div class="personal-panel__actions">
                 <button type="button" :class="['personal-action', { active: received }]" @click="toggleReceived">
                     {{ received ? 'Получена' : 'Не получена' }}
+                </button>
+                <button type="button" :class="['personal-action', { active: wanted }]" @click="toggleWanted">
+                    {{ wanted ? 'В списке желаемого' : 'Хочу получить' }}
                 </button>
             </div>
         </div>

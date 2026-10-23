@@ -32,7 +32,7 @@ const emit = defineEmits(['close'])
     padding: 0.2em 1em;
     color: white;
     text-shadow: var(--text-shadow);
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 
     perspective-origin: 50% 50%;
     perspective: 300px;
@@ -67,7 +67,7 @@ const emit = defineEmits(['close'])
     right: 0;
     translate: 50% -50%;
 
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 1.2em;
     height: 1.2em;
 }

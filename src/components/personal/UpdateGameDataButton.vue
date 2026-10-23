@@ -19,6 +19,30 @@ async function clearGameDataCaches() {
     ])
 }
 
+function preservePersonalProgress() {
+    // Keep a tiny recovery copy in case a future PWA update changes storage
+    // behaviour. This is never used for game data and contains no server data.
+    try {
+        const personal = localStorage.getItem('personalTracker')
+        if (personal !== null) {
+            sessionStorage.setItem('personalTracker:recovery', personal)
+        }
+    } catch {
+        // Storage can be unavailable in private/restricted browser contexts.
+    }
+}
+
+function restorePersonalProgress() {
+    try {
+        const recovery = sessionStorage.getItem('personalTracker:recovery')
+        if (recovery !== null) {
+            localStorage.setItem('personalTracker', recovery)
+            sessionStorage.removeItem('personalTracker:recovery')
+        }
+    } catch {
+        // Ignore restricted storage contexts.
+    }
+}
 
 async function update() {
     if (busy.value) return
@@ -36,7 +60,9 @@ async function update() {
             return
         }
 
+        preservePersonalProgress()
         await clearGameDataCaches()
+        restorePersonalProgress()
         status.value = t('personal.update.updated')
         window.setTimeout(() => window.location.reload(), 250)
     } catch (error) {
