@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 import { Config } from 'vike-vue/Config'
 import { diagnoseWhatsHot, type WhatsHotDiagnosticResult } from '@/scripts/whatsHotDiagnostic'
 import { translateName } from '@/scripts/gameData'
@@ -16,7 +16,9 @@ async function runDiagnostic() {
     }
 }
 
-await runDiagnostic()
+onMounted(() => {
+    void runDiagnostic()
+})
 
 function collectionName(collection: any) {
     return translateName(collection).value || collection.id
@@ -27,6 +29,7 @@ function collectionName(collection: any) {
     <Config title="What's Hot — диагностика" />
 
     <div class="debug-page">
+        <section v-if=!result && !error class="loading">Загружаем данные магазина и коллекций…</section>
         <section>
             <h1>What's Hot — диагностика</h1>
             <p>
@@ -107,5 +110,6 @@ button { padding: .6rem 1rem; border-radius: 10px; cursor: pointer; }
 .match-status.partial { color: #9a6a00; }
 .missing { opacity: .75; }
 .error { padding: 1rem; border-radius: 12px; background: #fee; }
+.loading { padding: 1rem; border-radius: 12px; background: var(--background-color-secondary, #f5f5f5); }
 code { font-family: monospace; }
 </style>

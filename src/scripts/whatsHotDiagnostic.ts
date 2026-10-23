@@ -32,6 +32,13 @@ export async function diagnoseWhatsHot(): Promise<WhatsHotDiagnosticResult> {
     const shop = await shopStore.shop
     const collectionData = getCollectionData()
 
+    if (!shop) {
+        throw new Error('Данные магазина ещё не загружены. Диагностика запускается только в браузере.')
+    }
+    if (!collectionData?.collections) {
+        throw new Error('Данные коллекций ещё не загружены.')
+    }
+
     const shopItems: WhatsHotShopItem[] = Object.values(shop)
         .filter(entry => entry.tags?.includes('whthot'))
         .map(entry => {
